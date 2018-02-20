@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/lists/AlfHashList","dojo/_base/lang","cmm/CMMConstants"],function(a,e,f,d){return a([e],{_updateCoreHashVars:function b(g){f.mixin(this,g);this.updateLoadDataPayload({name:this.model});this.alfPublish(d.UPDATE_MODEL_HEADING,{label:this.model})},updateLoadDataPayload:function c(g){this.inherited(arguments);this.loadDataPublishPayload=g}})});

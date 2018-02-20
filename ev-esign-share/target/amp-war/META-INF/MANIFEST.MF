@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Implementation-Title: Alfresco Share WAR
+Implementation-Version: 5.1.e
+Built-By: build
+Specification-Vendor: Alfresco Software
+Build-Revision: 122323
+Build-Name: Alfresco - Share 5.1 - 5.1.e
+Created-By: Apache Maven 3.2.5
+Implementation-URL: http://www.alfresco.org/alfresco-share-parent/shar
+ e/
+Build-Date: 2016-02-16T17:51:53Z
+Implementation-Vendor: Alfresco Software
+Build-Number: 4
+Implementation-Vendor-Id: org.alfresco
+Build-Jdk: 1.7.0_55
+Specification-Title: Alfresco Share WAR
+Build-Key: ALF-CSHARE15-JOB1-4
+Specification-Version: 5.1.0
+Archiver-Version: Plexus Archiver
+
+Name: Share Libraries
+freemarker: 2.3.20-alfresco-patched
+alfresco-core: 5.6
+yui: 2.9.0-alfresco-20141223
+webscripts: 5.8
+alfresco-jlan: 5.2
+surf: 5.1.e
+aikau: 1.0.39.5
+rhino: 1.7R4-alfresco-patched
+spring: 3.2.14.RELEASE
+
+Name: Source-control
+Source-Url: https://svn.alfresco.com/repos/alfresco-enterprise/web-app
+ s/Share/tags/5.1.e
+Source-Revision: 122323
+Last-change-Revision: 122289
+

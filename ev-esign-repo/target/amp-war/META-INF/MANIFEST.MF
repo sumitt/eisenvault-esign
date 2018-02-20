@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Implementation-Title: Alfresco Repository with Share Services AMP
+Implementation-Version: 5.1.e
+Built-By: build
+Specification-Vendor: Alfresco Software
+Build-Revision: 122323
+Build-Name: Alfresco - Share 5.1 - 5.1.e
+Created-By: Apache Maven 3.2.5
+Implementation-URL: http://www.alfresco.org/alfresco-share-parent/alfr
+ esco/
+Build-Date: 2016-02-16T17:51:53Z
+Implementation-Vendor: Alfresco Software
+Build-Number: 4
+Implementation-Vendor-Id: org.alfresco
+Build-Jdk: 1.7.0_55
+Specification-Title: Alfresco Repository with Share Services AMP
+Build-Key: ALF-CSHARE15-JOB1-4
+Specification-Version: 5.1.0
+Archiver-Version: Plexus Archiver
+
+Name: Source-control
+Source-Url: https://svn.alfresco.com/repos/alfresco-enterprise/web-app
+ s/Share/tags/5.1.e
+Source-Revision: 122323
+Last-change-Revision: 122289
+

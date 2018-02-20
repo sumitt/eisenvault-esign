@@ -1,0 +1,1 @@
+(function(){Alfresco.RuleConfigType=function(a){Alfresco.RuleConfigType.superclass.constructor.call(this,a);this.name="Alfresco.RuleConfigType";Alfresco.util.ComponentManager.reregister(this);this.options.configWebscript=Alfresco.constants.PROXY_URI_RELATIVE+"api/sites";return this};YAHOO.extend(Alfresco.RuleConfigType,Alfresco.RuleConfig,{})})();

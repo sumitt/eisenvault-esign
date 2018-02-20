@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Selectimages</shortname>
+  <description>Selectimages webscript.</description>
+  <url>/selectimages</url>
+  <format default="html"/>
+  <authentication>user</authentication>
+</webscript>

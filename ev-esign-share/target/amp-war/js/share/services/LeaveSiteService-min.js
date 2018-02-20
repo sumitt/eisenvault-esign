@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","dojo/_base/lang","alfresco/core/Core"],function(b,e,c){return b([c],{constructor:function d(f){b.safeMixin(this,f);e.mixin(this,f);if(f.publishPayload){var g=this;window.onload=function(){g.checkLocationHash(f.publishPayload)}}},checkLocationHash:function a(g){var f=window.location.hash;if(f=="#leavesite"){this.alfPublish("ALF_LEAVE_SITE",g)}}})});

@@ -1,0 +1,13 @@
+   
+How to Customize a Web Script
+Documentation on how to develop a Web Script may be found here.
+Any part of a Web Script (i.e. its description, "execute" javascript, or "response" template) may be overridden.   This is achieved by copying the original part to this extension folder.  The folder within which the part lives must be replicated in this extension area too.
+e.g. to override the html output of the "Keyword search" script...
+copy
+/Data Dictionary/Web Scripts/org/alfresco/repository/keywordsearch.get.html.ftl 
+to
+/Data Dictionary/Web Scripts Extensions/org/alfresco/repository/keywordsearch.get.html.ftl 
+ 
+Once copied, you can make your changes to the copy.
+To ensure your override is registered, go to /alfresco/service/ and click on the "Refresh List of Web Scripts" button.  The next invocation of the web script will include your override.
+     

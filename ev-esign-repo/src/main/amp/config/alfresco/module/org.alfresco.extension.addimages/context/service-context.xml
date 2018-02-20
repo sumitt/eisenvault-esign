@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+	<bean id="webscript.org.tenthline.treeview.TreeView.get" class="org.tenthline.treeview.TreeView"
+		parent="webscript">
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+
+	<bean id="webscript.org.tenthline.treeview.HandleFile.get" class="org.tenthline.treeview.HandleFile"
+		parent="webscript">
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+		<property name="nodeService" ref="NodeService" />
+		<property name="authenticationService" ref="AuthenticationService" />
+		<property name="personService" ref="PersonService" />
+	</bean>
+
+	<bean id="webscript.org.tenthline.treeview.Picture.get" class="org.tenthline.treeview.Picture"
+		parent="webscript">
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+
+</beans>

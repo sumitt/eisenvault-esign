@@ -1,0 +1,275 @@
+Difference: missing sequence from database, expected at path: .act_evt_log_log_nr__seq
+Difference: expected column .act_evt_log.log_nr_.type="serial", but was .ACT_EVT_LOG.LOG_NR_.type="bigint"
+Difference: expected column .act_evt_log.data_.type="bytea", but was .ACT_EVT_LOG.DATA_.type="varbinary"
+Difference: expected column .act_evt_log.is_processed_.type="int2", but was .ACT_EVT_LOG.IS_PROCESSED_.type="boolean"
+Difference: expected primary key .act_evt_log.act_evt_log_pkey.name="act_evt_log_pkey", but was .ACT_EVT_LOG.CONSTRAINT_C9.name="CONSTRAINT_C9"
+Difference: expected primary key .act_evt_log.act_evt_log_pkey.columnNames[0]="log_nr_", but was .ACT_EVT_LOG.CONSTRAINT_C9.columnNames[0]="LOG_NR_"
+Difference: unexpected index found in database with path: .ACT_EVT_LOG.PRIMARY_KEY_C9
+Difference: expected column .act_ge_bytearray.rev_.type="int4", but was .ACT_GE_BYTEARRAY.REV_.type="integer"
+Difference: expected column .act_ge_bytearray.bytes_.type="bytea", but was .ACT_GE_BYTEARRAY.BYTES_.type="varbinary"
+Difference: expected column .act_ge_bytearray.generated_.type="bool", but was .ACT_GE_BYTEARRAY.GENERATED_.type="boolean"
+Difference: expected primary key .act_ge_bytearray.act_ge_bytearray_pkey.name="act_ge_bytearray_pkey", but was .ACT_GE_BYTEARRAY.CONSTRAINT_80.name="CONSTRAINT_80"
+Difference: expected primary key .act_ge_bytearray.act_ge_bytearray_pkey.columnNames[0]="id_", but was .ACT_GE_BYTEARRAY.CONSTRAINT_80.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ge_bytearray.act_fk_bytearr_depl
+Difference: unexpected foreign key found in database with path: .ACT_GE_BYTEARRAY.ACT_FK_BYTEARR_DEPL
+Difference: missing index from database, expected at path: .act_ge_bytearray.act_idx_bytear_depl
+Difference: unexpected index found in database with path: .ACT_GE_BYTEARRAY.PRIMARY_KEY_80
+Difference: unexpected index found in database with path: .ACT_GE_BYTEARRAY.ACT_FK_BYTEARR_DEPL_INDEX_8
+Difference: expected column .act_ge_property.rev_.type="int4", but was .ACT_GE_PROPERTY.REV_.type="integer"
+Difference: expected primary key .act_ge_property.act_ge_property_pkey.name="act_ge_property_pkey", but was .ACT_GE_PROPERTY.CONSTRAINT_27.name="CONSTRAINT_27"
+Difference: expected primary key .act_ge_property.act_ge_property_pkey.columnNames[0]="name_", but was .ACT_GE_PROPERTY.CONSTRAINT_27.columnNames[0]="NAME_"
+Difference: unexpected index found in database with path: .ACT_GE_PROPERTY.PRIMARY_KEY_27
+Difference: expected column .act_hi_actinst.duration_.type="int8", but was .ACT_HI_ACTINST.DURATION_.type="bigint"
+Difference: expected primary key .act_hi_actinst.act_hi_actinst_pkey.name="act_hi_actinst_pkey", but was .ACT_HI_ACTINST.CONSTRAINT_FB.name="CONSTRAINT_FB"
+Difference: expected primary key .act_hi_actinst.act_hi_actinst_pkey.columnNames[0]="id_", but was .ACT_HI_ACTINST.CONSTRAINT_FB.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_actinst.act_idx_hi_act_inst_end
+Difference: missing index from database, expected at path: .act_hi_actinst.act_idx_hi_act_inst_exec
+Difference: missing index from database, expected at path: .act_hi_actinst.act_idx_hi_act_inst_procinst
+Difference: missing index from database, expected at path: .act_hi_actinst.act_idx_hi_act_inst_start
+Difference: unexpected index found in database with path: .ACT_HI_ACTINST.PRIMARY_KEY_FB
+Difference: unexpected index found in database with path: .ACT_HI_ACTINST.ACT_IDX_HI_ACT_INST_END
+Difference: unexpected index found in database with path: .ACT_HI_ACTINST.ACT_IDX_HI_ACT_INST_EXEC
+Difference: unexpected index found in database with path: .ACT_HI_ACTINST.ACT_IDX_HI_ACT_INST_PROCINST
+Difference: unexpected index found in database with path: .ACT_HI_ACTINST.ACT_IDX_HI_ACT_INST_START
+Difference: expected column .act_hi_attachment.rev_.type="int4", but was .ACT_HI_ATTACHMENT.REV_.type="integer"
+Difference: expected primary key .act_hi_attachment.act_hi_attachment_pkey.name="act_hi_attachment_pkey", but was .ACT_HI_ATTACHMENT.CONSTRAINT_DCB.name="CONSTRAINT_DCB"
+Difference: expected primary key .act_hi_attachment.act_hi_attachment_pkey.columnNames[0]="id_", but was .ACT_HI_ATTACHMENT.CONSTRAINT_DCB.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_HI_ATTACHMENT.PRIMARY_KEY_DCB
+Difference: expected column .act_hi_comment.full_msg_.type="bytea", but was .ACT_HI_COMMENT.FULL_MSG_.type="varbinary"
+Difference: expected primary key .act_hi_comment.act_hi_comment_pkey.name="act_hi_comment_pkey", but was .ACT_HI_COMMENT.CONSTRAINT_78F.name="CONSTRAINT_78F"
+Difference: expected primary key .act_hi_comment.act_hi_comment_pkey.columnNames[0]="id_", but was .ACT_HI_COMMENT.CONSTRAINT_78F.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_HI_COMMENT.PRIMARY_KEY_78F
+Difference: expected column .act_hi_detail.name_.nullable="false", but was .ACT_HI_DETAIL.NAME_.nullable="true"
+Difference: expected column .act_hi_detail.var_type_.type="varchar(64)", but was .ACT_HI_DETAIL.VAR_TYPE_.type="varchar(255)"
+Difference: expected column .act_hi_detail.rev_.type="int4", but was .ACT_HI_DETAIL.REV_.type="integer"
+Difference: expected column .act_hi_detail.double_.type="float8", but was .ACT_HI_DETAIL.DOUBLE_.type="double"
+Difference: expected column .act_hi_detail.long_.type="int8", but was .ACT_HI_DETAIL.LONG_.type="bigint"
+Difference: expected primary key .act_hi_detail.act_hi_detail_pkey.name="act_hi_detail_pkey", but was .ACT_HI_DETAIL.CONSTRAINT_80F.name="CONSTRAINT_80F"
+Difference: expected primary key .act_hi_detail.act_hi_detail_pkey.columnNames[0]="id_", but was .ACT_HI_DETAIL.CONSTRAINT_80F.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_detail.act_idx_hi_detail_act_inst
+Difference: missing index from database, expected at path: .act_hi_detail.act_idx_hi_detail_name
+Difference: missing index from database, expected at path: .act_hi_detail.act_idx_hi_detail_proc_inst
+Difference: missing index from database, expected at path: .act_hi_detail.act_idx_hi_detail_task_id
+Difference: missing index from database, expected at path: .act_hi_detail.act_idx_hi_detail_time
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.PRIMARY_KEY_80F
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.ACT_IDX_HI_DETAIL_ACT_INST
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.ACT_IDX_HI_DETAIL_NAME
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.ACT_IDX_HI_DETAIL_PROC_INST
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.ACT_IDX_HI_DETAIL_TASK_ID
+Difference: unexpected index found in database with path: .ACT_HI_DETAIL.ACT_IDX_HI_DETAIL_TIME
+Difference: expected primary key .act_hi_identitylink.act_hi_identitylink_pkey.name="act_hi_identitylink_pkey", but was .ACT_HI_IDENTITYLINK.CONSTRAINT_8A.name="CONSTRAINT_8A"
+Difference: expected primary key .act_hi_identitylink.act_hi_identitylink_pkey.columnNames[0]="id_", but was .ACT_HI_IDENTITYLINK.CONSTRAINT_8A.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_identitylink.act_idx_hi_ident_lnk_procinst
+Difference: missing index from database, expected at path: .act_hi_identitylink.act_idx_hi_ident_lnk_task
+Difference: missing index from database, expected at path: .act_hi_identitylink.act_idx_hi_ident_lnk_user
+Difference: unexpected index found in database with path: .ACT_HI_IDENTITYLINK.PRIMARY_KEY_8A
+Difference: unexpected index found in database with path: .ACT_HI_IDENTITYLINK.ACT_IDX_HI_IDENT_LNK_PROCINST
+Difference: unexpected index found in database with path: .ACT_HI_IDENTITYLINK.ACT_IDX_HI_IDENT_LNK_TASK
+Difference: unexpected index found in database with path: .ACT_HI_IDENTITYLINK.ACT_IDX_HI_IDENT_LNK_USER
+Difference: expected column .act_hi_procinst.duration_.type="int8", but was .ACT_HI_PROCINST.DURATION_.type="bigint"
+Difference: expected primary key .act_hi_procinst.act_hi_procinst_pkey.name="act_hi_procinst_pkey", but was .ACT_HI_PROCINST.CONSTRAINT_8D1.name="CONSTRAINT_8D1"
+Difference: expected primary key .act_hi_procinst.act_hi_procinst_pkey.columnNames[0]="id_", but was .ACT_HI_PROCINST.CONSTRAINT_8D1.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_procinst.act_hi_procinst_proc_inst_id__key
+Difference: missing index from database, expected at path: .act_hi_procinst.act_idx_hi_pro_i_buskey
+Difference: missing index from database, expected at path: .act_hi_procinst.act_idx_hi_pro_inst_end
+Difference: unexpected index found in database with path: .ACT_HI_PROCINST.CONSTRAINT_INDEX_8D
+Difference: unexpected index found in database with path: .ACT_HI_PROCINST.PRIMARY_KEY_8D1
+Difference: unexpected index found in database with path: .ACT_HI_PROCINST.ACT_IDX_HI_PRO_INST_END
+Difference: unexpected index found in database with path: .ACT_HI_PROCINST.ACT_IDX_HI_PRO_I_BUSKEY
+Difference: expected column .act_hi_taskinst.duration_.type="int8", but was .ACT_HI_TASKINST.DURATION_.type="bigint"
+Difference: expected column .act_hi_taskinst.priority_.type="int4", but was .ACT_HI_TASKINST.PRIORITY_.type="integer"
+Difference: expected primary key .act_hi_taskinst.act_hi_taskinst_pkey.name="act_hi_taskinst_pkey", but was .ACT_HI_TASKINST.CONSTRAINT_B0.name="CONSTRAINT_B0"
+Difference: expected primary key .act_hi_taskinst.act_hi_taskinst_pkey.columnNames[0]="id_", but was .ACT_HI_TASKINST.CONSTRAINT_B0.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_taskinst.act_idx_hi_task_inst_procinst
+Difference: unexpected index found in database with path: .ACT_HI_TASKINST.PRIMARY_KEY_B0
+Difference: unexpected index found in database with path: .ACT_HI_TASKINST.ACT_IDX_HI_TASK_INST_PROCINST
+Difference: expected column .act_hi_varinst.rev_.type="int4", but was .ACT_HI_VARINST.REV_.type="integer"
+Difference: expected column .act_hi_varinst.double_.type="float8", but was .ACT_HI_VARINST.DOUBLE_.type="double"
+Difference: expected column .act_hi_varinst.long_.type="int8", but was .ACT_HI_VARINST.LONG_.type="bigint"
+Difference: expected primary key .act_hi_varinst.act_hi_varinst_pkey.name="act_hi_varinst_pkey", but was .ACT_HI_VARINST.CONSTRAINT_4E.name="CONSTRAINT_4E"
+Difference: expected primary key .act_hi_varinst.act_hi_varinst_pkey.columnNames[0]="id_", but was .ACT_HI_VARINST.CONSTRAINT_4E.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_hi_varinst.act_idx_hi_procvar_name_type
+Difference: missing index from database, expected at path: .act_hi_varinst.act_idx_hi_procvar_proc_inst
+Difference: missing index from database, expected at path: .act_hi_varinst.act_idx_hi_procvar_task_id
+Difference: unexpected index found in database with path: .ACT_HI_VARINST.PRIMARY_KEY_4E
+Difference: unexpected index found in database with path: .ACT_HI_VARINST.ACT_IDX_HI_PROCVAR_NAME_TYPE
+Difference: unexpected index found in database with path: .ACT_HI_VARINST.ACT_IDX_HI_PROCVAR_PROC_INST
+Difference: unexpected index found in database with path: .ACT_HI_VARINST.ACT_IDX_HI_PROCVAR_TASK_ID
+Difference: expected column .act_id_group.rev_.type="int4", but was .ACT_ID_GROUP.REV_.type="integer"
+Difference: expected primary key .act_id_group.act_id_group_pkey.name="act_id_group_pkey", but was .ACT_ID_GROUP.CONSTRAINT_6B.name="CONSTRAINT_6B"
+Difference: expected primary key .act_id_group.act_id_group_pkey.columnNames[0]="id_", but was .ACT_ID_GROUP.CONSTRAINT_6B.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_ID_GROUP.PRIMARY_KEY_6B
+Difference: expected column .act_id_info.rev_.type="int4", but was .ACT_ID_INFO.REV_.type="integer"
+Difference: expected column .act_id_info.password_.type="bytea", but was .ACT_ID_INFO.PASSWORD_.type="varbinary"
+Difference: expected primary key .act_id_info.act_id_info_pkey.name="act_id_info_pkey", but was .ACT_ID_INFO.CONSTRAINT_7F5.name="CONSTRAINT_7F5"
+Difference: expected primary key .act_id_info.act_id_info_pkey.columnNames[0]="id_", but was .ACT_ID_INFO.CONSTRAINT_7F5.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_ID_INFO.PRIMARY_KEY_7F5
+Difference: expected primary key .act_id_membership.act_id_membership_pkey.name="act_id_membership_pkey", but was .ACT_ID_MEMBERSHIP.CONSTRAINT_EE.name="CONSTRAINT_EE"
+Difference: expected primary key .act_id_membership.act_id_membership_pkey.columnNames[0]="user_id_", but was .ACT_ID_MEMBERSHIP.CONSTRAINT_EE.columnNames[0]="GROUP_ID_"
+Difference: expected primary key .act_id_membership.act_id_membership_pkey.columnNames[1]="group_id_", but was .ACT_ID_MEMBERSHIP.CONSTRAINT_EE.columnNames[1]="USER_ID_"
+Difference: expected primary key .act_id_membership.act_id_membership_pkey.columnOrders[0]="1", but was .ACT_ID_MEMBERSHIP.CONSTRAINT_EE.columnOrders[0]="2"
+Difference: expected primary key .act_id_membership.act_id_membership_pkey.columnOrders[1]="2", but was .ACT_ID_MEMBERSHIP.CONSTRAINT_EE.columnOrders[1]="1"
+Difference: missing foreign key from database, expected at path: .act_id_membership.act_fk_memb_group
+Difference: missing foreign key from database, expected at path: .act_id_membership.act_fk_memb_user
+Difference: unexpected foreign key found in database with path: .ACT_ID_MEMBERSHIP.ACT_FK_MEMB_GROUP
+Difference: unexpected foreign key found in database with path: .ACT_ID_MEMBERSHIP.ACT_FK_MEMB_USER
+Difference: missing index from database, expected at path: .act_id_membership.act_idx_memb_group
+Difference: missing index from database, expected at path: .act_id_membership.act_idx_memb_user
+Difference: unexpected index found in database with path: .ACT_ID_MEMBERSHIP.PRIMARY_KEY_EE
+Difference: unexpected index found in database with path: .ACT_ID_MEMBERSHIP.ACT_FK_MEMB_GROUP_INDEX_E
+Difference: expected column .act_id_user.rev_.type="int4", but was .ACT_ID_USER.REV_.type="integer"
+Difference: expected primary key .act_id_user.act_id_user_pkey.name="act_id_user_pkey", but was .ACT_ID_USER.CONSTRAINT_7F.name="CONSTRAINT_7F"
+Difference: expected primary key .act_id_user.act_id_user_pkey.columnNames[0]="id_", but was .ACT_ID_USER.CONSTRAINT_7F.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_ID_USER.PRIMARY_KEY_7F
+Difference: expected primary key .act_re_deployment.act_re_deployment_pkey.name="act_re_deployment_pkey", but was .ACT_RE_DEPLOYMENT.CONSTRAINT_1B.name="CONSTRAINT_1B"
+Difference: expected primary key .act_re_deployment.act_re_deployment_pkey.columnNames[0]="id_", but was .ACT_RE_DEPLOYMENT.CONSTRAINT_1B.columnNames[0]="ID_"
+Difference: unexpected index found in database with path: .ACT_RE_DEPLOYMENT.PRIMARY_KEY_1B
+Difference: expected column .act_re_model.rev_.type="int4", but was .ACT_RE_MODEL.REV_.type="integer"
+Difference: expected column .act_re_model.version_.type="int4", but was .ACT_RE_MODEL.VERSION_.type="integer"
+Difference: expected primary key .act_re_model.act_re_model_pkey.name="act_re_model_pkey", but was .ACT_RE_MODEL.CONSTRAINT_482.name="CONSTRAINT_482"
+Difference: expected primary key .act_re_model.act_re_model_pkey.columnNames[0]="id_", but was .ACT_RE_MODEL.CONSTRAINT_482.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_re_model.act_fk_model_source
+Difference: missing foreign key from database, expected at path: .act_re_model.act_fk_model_source_extra
+Difference: missing foreign key from database, expected at path: .act_re_model.act_fk_model_deployment
+Difference: unexpected foreign key found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_SOURCE
+Difference: unexpected foreign key found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_SOURCE_EXTRA
+Difference: unexpected foreign key found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_DEPLOYMENT
+Difference: missing index from database, expected at path: .act_re_model.act_idx_model_deployment
+Difference: missing index from database, expected at path: .act_re_model.act_idx_model_source
+Difference: missing index from database, expected at path: .act_re_model.act_idx_model_source_extra
+Difference: unexpected index found in database with path: .ACT_RE_MODEL.PRIMARY_KEY_482
+Difference: unexpected index found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_DEPLOYMENT_INDEX_4
+Difference: unexpected index found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_SOURCE_EXTRA_INDEX_4
+Difference: unexpected index found in database with path: .ACT_RE_MODEL.ACT_FK_MODEL_SOURCE_INDEX_4
+Difference: expected column .act_re_procdef.rev_.type="int4", but was .ACT_RE_PROCDEF.REV_.type="integer"
+Difference: expected column .act_re_procdef.version_.type="int4", but was .ACT_RE_PROCDEF.VERSION_.type="integer"
+Difference: expected column .act_re_procdef.has_start_form_key_.type="bool", but was .ACT_RE_PROCDEF.HAS_START_FORM_KEY_.type="boolean"
+Difference: expected column .act_re_procdef.suspension_state_.type="int4", but was .ACT_RE_PROCDEF.SUSPENSION_STATE_.type="integer"
+Difference: expected column .act_re_procdef.has_graphical_notation_.type="bool", but was .ACT_RE_PROCDEF.HAS_GRAPHICAL_NOTATION_.type="boolean"
+Difference: expected primary key .act_re_procdef.act_re_procdef_pkey.name="act_re_procdef_pkey", but was .ACT_RE_PROCDEF.CONSTRAINT_67.name="CONSTRAINT_67"
+Difference: expected primary key .act_re_procdef.act_re_procdef_pkey.columnNames[0]="id_", but was .ACT_RE_PROCDEF.CONSTRAINT_67.columnNames[0]="ID_"
+Difference: missing index from database, expected at path: .act_re_procdef.act_uniq_procdef
+Difference: unexpected index found in database with path: .ACT_RE_PROCDEF.ACT_UNIQ_PROCDEF_INDEX_6
+Difference: unexpected index found in database with path: .ACT_RE_PROCDEF.PRIMARY_KEY_67
+Difference: expected column .act_ru_event_subscr.rev_.type="int4", but was .ACT_RU_EVENT_SUBSCR.REV_.type="integer"
+Difference: expected primary key .act_ru_event_subscr.act_ru_event_subscr_pkey.name="act_ru_event_subscr_pkey", but was .ACT_RU_EVENT_SUBSCR.CONSTRAINT_86.name="CONSTRAINT_86"
+Difference: expected primary key .act_ru_event_subscr.act_ru_event_subscr_pkey.columnNames[0]="id_", but was .ACT_RU_EVENT_SUBSCR.CONSTRAINT_86.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_event_subscr.act_fk_event_exec
+Difference: unexpected foreign key found in database with path: .ACT_RU_EVENT_SUBSCR.ACT_FK_EVENT_EXEC
+Difference: missing index from database, expected at path: .act_ru_event_subscr.act_idx_event_subscr
+Difference: missing index from database, expected at path: .act_ru_event_subscr.act_idx_event_subscr_config_
+Difference: unexpected index found in database with path: .ACT_RU_EVENT_SUBSCR.PRIMARY_KEY_86
+Difference: unexpected index found in database with path: .ACT_RU_EVENT_SUBSCR.ACT_FK_EVENT_EXEC_INDEX_8
+Difference: unexpected index found in database with path: .ACT_RU_EVENT_SUBSCR.ACT_IDX_EVENT_SUBSCR_CONFIG_
+Difference: expected column .act_ru_execution.rev_.type="int4", but was .ACT_RU_EXECUTION.REV_.type="integer"
+Difference: expected column .act_ru_execution.is_active_.type="bool", but was .ACT_RU_EXECUTION.IS_ACTIVE_.type="boolean"
+Difference: expected column .act_ru_execution.is_concurrent_.type="bool", but was .ACT_RU_EXECUTION.IS_CONCURRENT_.type="boolean"
+Difference: expected column .act_ru_execution.is_scope_.type="bool", but was .ACT_RU_EXECUTION.IS_SCOPE_.type="boolean"
+Difference: expected column .act_ru_execution.is_event_scope_.type="bool", but was .ACT_RU_EXECUTION.IS_EVENT_SCOPE_.type="boolean"
+Difference: expected column .act_ru_execution.suspension_state_.type="int4", but was .ACT_RU_EXECUTION.SUSPENSION_STATE_.type="integer"
+Difference: expected column .act_ru_execution.cached_ent_state_.type="int4", but was .ACT_RU_EXECUTION.CACHED_ENT_STATE_.type="integer"
+Difference: expected primary key .act_ru_execution.act_ru_execution_pkey.name="act_ru_execution_pkey", but was .ACT_RU_EXECUTION.CONSTRAINT_5D.name="CONSTRAINT_5D"
+Difference: expected primary key .act_ru_execution.act_ru_execution_pkey.columnNames[0]="id_", but was .ACT_RU_EXECUTION.CONSTRAINT_5D.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_execution.act_fk_exe_procdef
+Difference: missing foreign key from database, expected at path: .act_ru_execution.act_fk_exe_parent
+Difference: missing foreign key from database, expected at path: .act_ru_execution.act_fk_exe_procinst
+Difference: missing foreign key from database, expected at path: .act_ru_execution.act_fk_exe_super
+Difference: unexpected foreign key found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PROCDEF
+Difference: unexpected foreign key found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PARENT
+Difference: unexpected foreign key found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PROCINST
+Difference: unexpected foreign key found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_SUPER
+Difference: missing index from database, expected at path: .act_ru_execution.act_idx_exe_parent
+Difference: missing index from database, expected at path: .act_ru_execution.act_idx_exe_procdef
+Difference: missing index from database, expected at path: .act_ru_execution.act_idx_exe_procinst
+Difference: missing index from database, expected at path: .act_ru_execution.act_idx_exe_super
+Difference: missing index from database, expected at path: .act_ru_execution.act_idx_exec_buskey
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.PRIMARY_KEY_5D
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PARENT_INDEX_5
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PROCDEF_INDEX_5
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_PROCINST_INDEX_5
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.ACT_FK_EXE_SUPER_INDEX_5
+Difference: unexpected index found in database with path: .ACT_RU_EXECUTION.ACT_IDX_EXEC_BUSKEY
+Difference: expected column .act_ru_identitylink.rev_.type="int4", but was .ACT_RU_IDENTITYLINK.REV_.type="integer"
+Difference: expected primary key .act_ru_identitylink.act_ru_identitylink_pkey.name="act_ru_identitylink_pkey", but was .ACT_RU_IDENTITYLINK.CONSTRAINT_A3.name="CONSTRAINT_A3"
+Difference: expected primary key .act_ru_identitylink.act_ru_identitylink_pkey.columnNames[0]="id_", but was .ACT_RU_IDENTITYLINK.CONSTRAINT_A3.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_identitylink.act_fk_athrz_procedef
+Difference: missing foreign key from database, expected at path: .act_ru_identitylink.act_fk_idl_procinst
+Difference: missing foreign key from database, expected at path: .act_ru_identitylink.act_fk_tskass_task
+Difference: unexpected foreign key found in database with path: .ACT_RU_IDENTITYLINK.ACT_FK_ATHRZ_PROCEDEF
+Difference: unexpected foreign key found in database with path: .ACT_RU_IDENTITYLINK.ACT_FK_IDL_PROCINST
+Difference: unexpected foreign key found in database with path: .ACT_RU_IDENTITYLINK.ACT_FK_TSKASS_TASK
+Difference: missing index from database, expected at path: .act_ru_identitylink.act_idx_athrz_procedef
+Difference: missing index from database, expected at path: .act_ru_identitylink.act_idx_ident_lnk_group
+Difference: missing index from database, expected at path: .act_ru_identitylink.act_idx_ident_lnk_user
+Difference: missing index from database, expected at path: .act_ru_identitylink.act_idx_idl_procinst
+Difference: missing index from database, expected at path: .act_ru_identitylink.act_idx_tskass_task
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.PRIMARY_KEY_A3
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.ACT_FK_IDL_PROCINST_INDEX_A
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.ACT_FK_TSKASS_TASK_INDEX_A
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.ACT_IDX_ATHRZ_PROCEDEF
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.ACT_IDX_IDENT_LNK_GROUP
+Difference: unexpected index found in database with path: .ACT_RU_IDENTITYLINK.ACT_IDX_IDENT_LNK_USER
+Difference: expected column .act_ru_job.rev_.type="int4", but was .ACT_RU_JOB.REV_.type="integer"
+Difference: expected column .act_ru_job.exclusive_.type="bool", but was .ACT_RU_JOB.EXCLUSIVE_.type="boolean"
+Difference: expected column .act_ru_job.retries_.type="int4", but was .ACT_RU_JOB.RETRIES_.type="integer"
+Difference: expected primary key .act_ru_job.act_ru_job_pkey.name="act_ru_job_pkey", but was .ACT_RU_JOB.CONSTRAINT_1C.name="CONSTRAINT_1C"
+Difference: expected primary key .act_ru_job.act_ru_job_pkey.columnNames[0]="id_", but was .ACT_RU_JOB.CONSTRAINT_1C.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_job.act_fk_job_exception
+Difference: unexpected foreign key found in database with path: .ACT_RU_JOB.ACT_FK_JOB_EXCEPTION
+Difference: missing index from database, expected at path: .act_ru_job.act_idx_job_exception
+Difference: unexpected index found in database with path: .ACT_RU_JOB.PRIMARY_KEY_1C
+Difference: unexpected index found in database with path: .ACT_RU_JOB.ACT_FK_JOB_EXCEPTION_INDEX_1
+Difference: expected column .act_ru_task.rev_.type="int4", but was .ACT_RU_TASK.REV_.type="integer"
+Difference: expected column .act_ru_task.priority_.type="int4", but was .ACT_RU_TASK.PRIORITY_.type="integer"
+Difference: expected column .act_ru_task.suspension_state_.type="int4", but was .ACT_RU_TASK.SUSPENSION_STATE_.type="integer"
+Difference: expected primary key .act_ru_task.act_ru_task_pkey.name="act_ru_task_pkey", but was .ACT_RU_TASK.CONSTRAINT_78.name="CONSTRAINT_78"
+Difference: expected primary key .act_ru_task.act_ru_task_pkey.columnNames[0]="id_", but was .ACT_RU_TASK.CONSTRAINT_78.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_task.act_fk_task_procdef
+Difference: missing foreign key from database, expected at path: .act_ru_task.act_fk_task_exe
+Difference: missing foreign key from database, expected at path: .act_ru_task.act_fk_task_procinst
+Difference: unexpected foreign key found in database with path: .ACT_RU_TASK.ACT_FK_TASK_PROCDEF
+Difference: unexpected foreign key found in database with path: .ACT_RU_TASK.ACT_FK_TASK_EXE
+Difference: unexpected foreign key found in database with path: .ACT_RU_TASK.ACT_FK_TASK_PROCINST
+Difference: missing index from database, expected at path: .act_ru_task.act_idx_task_create
+Difference: missing index from database, expected at path: .act_ru_task.act_idx_task_exec
+Difference: missing index from database, expected at path: .act_ru_task.act_idx_task_procdef
+Difference: missing index from database, expected at path: .act_ru_task.act_idx_task_procinst
+Difference: unexpected index found in database with path: .ACT_RU_TASK.PRIMARY_KEY_78
+Difference: unexpected index found in database with path: .ACT_RU_TASK.ACT_FK_TASK_EXE_INDEX_7
+Difference: unexpected index found in database with path: .ACT_RU_TASK.ACT_FK_TASK_PROCDEF_INDEX_7
+Difference: unexpected index found in database with path: .ACT_RU_TASK.ACT_FK_TASK_PROCINST_INDEX_7
+Difference: unexpected index found in database with path: .ACT_RU_TASK.ACT_IDX_TASK_CREATE
+Difference: expected column .act_ru_variable.rev_.type="int4", but was .ACT_RU_VARIABLE.REV_.type="integer"
+Difference: expected column .act_ru_variable.double_.type="float8", but was .ACT_RU_VARIABLE.DOUBLE_.type="double"
+Difference: expected column .act_ru_variable.long_.type="int8", but was .ACT_RU_VARIABLE.LONG_.type="bigint"
+Difference: expected primary key .act_ru_variable.act_ru_variable_pkey.name="act_ru_variable_pkey", but was .ACT_RU_VARIABLE.CONSTRAINT_C2.name="CONSTRAINT_C2"
+Difference: expected primary key .act_ru_variable.act_ru_variable_pkey.columnNames[0]="id_", but was .ACT_RU_VARIABLE.CONSTRAINT_C2.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_ru_variable.act_fk_var_bytearray
+Difference: missing foreign key from database, expected at path: .act_ru_variable.act_fk_var_exe
+Difference: missing foreign key from database, expected at path: .act_ru_variable.act_fk_var_procinst
+Difference: unexpected foreign key found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_BYTEARRAY
+Difference: unexpected foreign key found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_EXE
+Difference: unexpected foreign key found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_PROCINST
+Difference: missing index from database, expected at path: .act_ru_variable.act_idx_var_bytearray
+Difference: missing index from database, expected at path: .act_ru_variable.act_idx_var_exe
+Difference: missing index from database, expected at path: .act_ru_variable.act_idx_var_procinst
+Difference: missing index from database, expected at path: .act_ru_variable.act_idx_variable_task_id
+Difference: unexpected index found in database with path: .ACT_RU_VARIABLE.PRIMARY_KEY_C2
+Difference: unexpected index found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_BYTEARRAY_INDEX_C
+Difference: unexpected index found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_EXE_INDEX_C
+Difference: unexpected index found in database with path: .ACT_RU_VARIABLE.ACT_FK_VAR_PROCINST_INDEX_C
+Difference: unexpected index found in database with path: .ACT_RU_VARIABLE.ACT_IDX_VARIABLE_TASK_ID
+Difference: expected column .act_procdef_info.REV_.type="int4", but was .ACT_PROCDEF_INFO.REV_.type="integer"
+Difference: expected primary key .act_procdef_info.act_procdef_info_pkey.name="act_procdef_info_pkey", but was .ACT_PROCDEF_INFO.CONSTRAINT_9E.name="CONSTRAINT_9E"
+Difference: expected primary key .act_procdef_info.act_procdef_info_pkey.columnNames[0]="id_", but was .ACT_PROCDEF_INFO.CONSTRAINT_9E.columnNames[0]="ID_"
+Difference: missing foreign key from database, expected at path: .act_procdef_info.act_fk_info_json_ba
+Difference: missing foreign key from database, expected at path: .act_procdef_info.act_fk_info_procdef
+Difference: unexpected foreign key found in database with path: .ACT_PROCDEF_INFO.ACT_FK_INFO_JSON_BA
+Difference: unexpected foreign key found in database with path: .ACT_PROCDEF_INFO.ACT_FK_INFO_PROCDEF
+Difference: missing index from database, expected at path: .act_procdef_info.act_uniq_info_procdef
+Difference: missing index from database, expected at path: .act_procdef_info.act_idx_procdef_info_proc
+Difference: missing index from database, expected at path: .act_procdef_info.act_idx_procdef_info_json
+Difference: unexpected index found in database with path: .ACT_PROCDEF_INFO.ACT_UNIQ_INFO_PROCDEF_INDEX_9
+Difference: unexpected index found in database with path: .ACT_PROCDEF_INFO.PRIMARY_KEY_9E
+Difference: unexpected index found in database with path: .ACT_PROCDEF_INFO.ACT_FK_INFO_JSON_BA_INDEX_9
+Difference: unexpected index found in database with path: .ACT_PROCDEF_INFO.ACT_IDX_INFO_PROCDEF

@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Addimages</shortname>
+  <description>addimages webscript.</description>
+  <url>/addimages</url>
+  <format default="html"/>
+  <authentication>user</authentication>
+</webscript>

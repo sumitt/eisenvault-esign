@@ -1,0 +1,334 @@
+10:16:02,651 INFO  [org.alfresco.repo.admin] Using database URL 'jdbc:h2:/home/ev-developer/workspace-main/ev-esign/ev-esign-repo/alf_data_dev/h2_data/alf_dev;AUTO_SERVER=TRUE;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;MVCC=FALSE;LOCK_MODE=0' with user 'alfresco'.
+10:16:03,675 INFO  [org.alfresco.repo.admin] Connected to database H2 version 1.4.190 (2015-10-11)
+10:16:15,881 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+10:16:15,882 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+10:16:29,393 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor Repository Template Processor for extension ftl
+10:16:29,398 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor Repository Script Processor for extension js
+10:16:32,152 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+10:16:32,207 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted] complete
+10:16:32,265 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Connecting to database: jdbc:h2:/home/ev-developer/workspace-main/ev-esign/ev-esign-repo/alf_data_dev/h2_data/alf_dev, UserName=ALFRESCO, H2 JDBC Driver
+10:16:32,265 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema managed by database dialect org.hibernate.dialect.H2Dialect.
+10:16:32,384 WARN  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema validation found 85 potential problems, results written to: /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-H2Dialect-Validation-Pre-Upgrade-alf_-562068229713251755.txt
+10:16:32,395 WARN  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema validation found 26 potential problems, results written to: /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-H2Dialect-Validation-Pre-Upgrade-act_-823123831543832898.txt
+10:16:32,474 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-pre-upgrade-alf_-6161073040637564806.xml.
+10:16:32,475 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-pre-upgrade-jbpm_-5863483029305902883.xml.
+10:16:32,475 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-pre-upgrade-act_-2596193416936291688.xml.
+10:16:32,479 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-6548619018348827023.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-RepoTables.sql).
+10:16:32,620 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-5887252305688304163.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-LockTables.sql).
+10:16:32,628 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-7225823138968290833.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-ContentTables.sql).
+10:16:32,645 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-4528304187527919649.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-PropertyValueTables.sql).
+10:16:32,675 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-3261468883538144132.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-ContentUrlEncryptionTables.sql).
+10:16:32,684 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-4210159050772386766.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-AuditTables.sql).
+10:16:32,704 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-3174454378811654003.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-ActivityTables.sql).
+10:16:32,711 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-3335723863259251340.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-UsageTables.sql).
+10:16:32,716 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-7606132697103647139.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-SubscriptionTables.sql).
+10:16:32,721 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-7008749267879705287.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-TenantTables.sql).
+10:16:32,726 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-4792393912449572026.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-AuthorizationTables.sql).
+10:16:32,793 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-5894938862489232660.sql (Generated).
+10:16:33,620 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-8013125658701542220.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoPostCreate-JBPM-Extra.sql).
+10:16:33,623 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-5381938921606831194.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoPostCreate-JBPM-FK-indexes.sql).
+10:16:33,646 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-Update-4958407311114546795.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoPostCreate-JBPM-varinst-indexes.sql).
+10:16:33,658 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Create scripts executed in 1330 ms
+10:16:34,029 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] All executed statements:  /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/AlfrescoSchema-H2Dialect-All_Statements-41862125766013314.sql.
+10:16:34,490 WARN  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema validation found 754 potential problems, results written to: /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-H2Dialect-Validation-Post-Upgrade-alf_-4078045049605325006.txt
+10:16:34,783 WARN  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema validation found 275 potential problems, results written to: /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-H2Dialect-Validation-Post-Upgrade-act_-8460430895469533173.txt
+10:16:36,240 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-post-upgrade-alf_-3538130574310620486.xml.
+10:16:36,241 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-post-upgrade-jbpm_-8802517251956579549.xml.
+10:16:36,241 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/Alfresco-schema-H2Dialect-post-upgrade-act_-2656609650884971432.xml.
+10:16:36,447 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Search' subsystem, ID: [Search, hidden]
+10:16:36,802 ERROR [org.alfresco.repo.search.impl.lucene.fts.FullTextSearchIndexerBootstrapBean] The lucene search subsystem is not supported. Please see http://docs.alfresco.com/null.null/tasks/lucene-solr4-migration.html
+10:16:36,804 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Search' subsystem, ID: [Search, hidden] complete
+10:16:37,446 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Transformers' subsystem, ID: [Transformers, default]
+10:16:37,622 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Transformers' subsystem, ID: [Transformers, default] complete
+10:16:37,625 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'thirdparty' subsystem, ID: [thirdparty, default]
+10:16:37,719 ERROR [org.alfresco.repo.content.transform.magick.AbstractImageMagickContentTransformerWorker] ImageMagickContentTransformerWorker not available: 01200000 Failed to perform ImageMagick transformation: 
+Execution result: 
+   os:         Linux
+   command:    ./ImageMagick/bin/convert /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/ImageMagickContentTransformerWorker_init_source_6974786923239995795.gif /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/target/Alfresco/ImageMagickContentTransformerWorker_init_target_2333513583952763073.png
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./ImageMagick/bin/convert": error=2, No such file or directory
+10:16:37,719 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'thirdparty' subsystem, ID: [thirdparty, default] complete
+10:16:37,724 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'OOoDirect' subsystem, ID: [OOoDirect, default]
+10:16:38,048 WARN  [org.alfresco.util.OpenOfficeConnectionTester] An initial OpenOffice connection could not be established.
+10:16:38,051 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'OOoDirect' subsystem, ID: [OOoDirect, default] complete
+10:16:44,776 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+10:16:44,967 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+10:16:46,053 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiReview | processDefinitionName = Review And Approve Activiti Process |  | id = reviewDecision |  | activityName = Review Decision | ] ( line: 48, column: 9)
+
+10:16:46,171 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiReviewPooled | processDefinitionName = Pooled Review And Approve Activiti Process |  | id = reviewDecision |  | activityName = Review Decision | ] ( line: 49, column: 9)
+
+10:16:46,273 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiParallelReview | processDefinitionName = Parallel Review And Approve Activiti Process |  | id = reviewDecision |  | activityName = Review Decision | ] ( line: 86, column: 9)
+
+10:16:46,432 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiParallelGroupReview | processDefinitionName = Parallel Group Review And Approve Activiti Process |  | id = reviewDecision |  | activityName = Review Decision | ] ( line: 108, column: 9)
+
+10:16:46,543 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiInvitationModerated | processDefinitionName = Moderated activiti invitation process |  | id = reviewDecision |  | activityName = Review Decision | ] ( line: 46, column: 7)
+
+10:16:46,575 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = activitiInvitationNominated | processDefinitionName = Nominated activiti invitation process |  | id = inviteGateway |  | activityName = Invite Gateway | ] ( line: 48, column: 7)
+
+10:16:46,950 INFO  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco root data directory ('dir.root') is: /home/ev-developer/workspace-main/ev-esign/ev-esign-repo/alf_data_dev
+10:16:47,027 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] Checking for patches to apply ...
+10:16:47,094 WARN  [org.alfresco.repo.admin.patch.PatchExecuter] Patch description is not available: Patch[ id=patch.contentFormFolderType, description=patch.contentFormFolderType.description, fixesFromSchema=0, fixesToSchema=36, targetSchema=37, ignored=false]
+10:16:47,105 WARN  [org.alfresco.repo.admin.patch.PatchExecuter] Patch description is not available: Patch[ id=patch.redeploySubmitProcess, description=patch.redeploySubmitProcess.description, fixesFromSchema=0, fixesToSchema=57, targetSchema=58, ignored=false]
+10:16:47,298 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 	Applying patch 'patch.exampleJavaScript' (Loads sample Javascript file into datadictionary scripts folder).
+10:16:47,380 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 	Applying patch 'patch.siteLoadPatch.swsdp' (Loads a sample site into the repository.).
+10:16:47,426 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'sysAdmin' subsystem, ID: [sysAdmin, default]
+10:16:47,459 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'sysAdmin' subsystem, ID: [sysAdmin, default] complete
+10:16:51,818 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.4-UsageTables
+RESULT: 
+Script completed
+=====================================
+10:16:51,818 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V4.0-TenantTables
+RESULT: 
+Script completed
+=====================================
+10:16:51,818 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.4-JBPM-varinst-indexes
+RESULT: 
+Script completed
+=====================================
+10:16:51,818 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V4.1-AuthorizationTables
+RESULT: 
+Script completed
+=====================================
+10:16:51,819 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V5.0-ContentUrlEncryptionTables
+RESULT: 
+Script completed
+=====================================
+10:16:51,819 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.exampleJavaScript
+RESULT: 
+Imported view into bootstrap location: /app:company_home/app:dictionary/app:scripts (workspace://SpacesStore/73ee599f-340b-4237-ab3b-32f0ffc0ead6)
+=====================================
+10:16:51,819 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.siteLoadPatch.swsdp
+RESULT: 
+Site swsdp imported.
+=====================================
+10:16:51,843 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Found 2 module package(s).
+10:16:51,862 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Installing module 'alfresco-share-services' version 5.1.0.
+10:16:51,880 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Installing module 'org.alfresco.extension.pdftoolkit' version 0.98.28.
+10:16:51,908 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'fileServers' subsystem, ID: [fileServers, default]
+10:16:52,285 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'fileServers' subsystem, ID: [fileServers, default] complete
+10:16:52,285 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'imap' subsystem, ID: [imap, default]
+10:16:52,402 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'imap' subsystem, ID: [imap, default] complete
+10:16:52,403 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'email' subsystem, ID: [email, outbound]
+10:16:52,522 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'email' subsystem, ID: [email, outbound] complete
+10:16:52,523 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'email' subsystem, ID: [email, inbound]
+10:16:52,608 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'email' subsystem, ID: [email, inbound] complete
+10:16:52,608 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Subscriptions' subsystem, ID: [Subscriptions, default]
+10:16:52,644 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Subscriptions' subsystem, ID: [Subscriptions, default] complete
+10:16:52,658 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Synchronization' subsystem, ID: [Synchronization, default]
+10:16:52,810 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Synchronization' subsystem, ID: [Synchronization, default] complete
+10:16:52,824 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - v1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11; maximum heap size 1337.000MB
+10:16:52,824 INFO  [org.alfresco.service.descriptor.DescriptorService] Server Mode :UNKNOWN
+10:16:52,829 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco started (Community). Current version: 5.1.0 (r122274-b3) schema 9,016. Originally installed version: 5.1.0 (r122274-b3) schema 9,016.
+10:16:52,845 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+10:16:53,092 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default] complete
+10:16:53,092 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Starting 'Replication' subsystem, ID: [Replication, default]
+10:16:53,118 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Startup of 'Replication' subsystem, ID: [Replication, default] complete
+10:16:54,285 WARN  [org.activiti.engine.impl.bpmn.parser.BpmnParse] Following warnings encountered during process validation: [Validation set: 'activiti-executable-process' | Problem: 'activiti-exclusive-gateway-seq-flow-without-conditions'] : Exclusive gateway has at least one outgoing sequence flow without a condition (which isn't the default one) - [Extra info : processDefinitionId = publishWebContent | processDefinitionName = Publish Web Content Activiti Process |  | id = checkForScheduledTime |  | activityName = Check Schedule | ] ( line: 46, column: 9)
+
+10:16:58,931 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:alfresco/webscripts/com/eisenvault/slingshot/profile/userprofile.post.desc.xml due to error: 01200000 Web Script document com/eisenvault/slingshot/profile/userprofile.post.desc.xml is attempting to define the url '/slingshot/profile/userprofile:POST' already defined by org/alfresco/slingshot/profile/userprofile.post.desc.xml
+10:16:58,935 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 404 Web Scripts (+1 failed), 558 URLs
+10:16:58,935 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 1 Package Description Documents (+0 failed) 
+10:16:58,935 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:01,237 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:alfresco/webscripts/com/eisenvault/slingshot/profile/userprofile.post.desc.xml due to error: 01200001 Web Script document com/eisenvault/slingshot/profile/userprofile.post.desc.xml is attempting to define the url '/slingshot/profile/userprofile:POST' already defined by org/alfresco/slingshot/profile/userprofile.post.desc.xml
+10:17:01,239 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 404 Web Scripts (+1 failed), 558 URLs
+10:17:01,239 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 1 Package Description Documents (+0 failed) 
+10:17:01,239 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:01,242 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Repository Web Script Container (in 6197.54ms)
+10:17:01,268 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+10:17:01,272 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+10:17:03,467 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:alfresco/webscripts/com/eisenvault/slingshot/profile/userprofile.post.desc.xml due to error: 01200002 Web Script document com/eisenvault/slingshot/profile/userprofile.post.desc.xml is attempting to define the url '/slingshot/profile/userprofile:POST' already defined by org/alfresco/slingshot/profile/userprofile.post.desc.xml
+10:17:03,467 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 404 Web Scripts (+1 failed), 558 URLs
+10:17:03,467 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 1 Package Description Documents (+0 failed) 
+10:17:03,468 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:03,570 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 11 Web Scripts (+0 failed), 82 URLs
+10:17:03,570 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Package Description Documents (+0 failed) 
+10:17:03,570 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:03,652 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 11 Web Scripts (+0 failed), 82 URLs
+10:17:03,652 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Package Description Documents (+0 failed) 
+10:17:03,652 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:03,656 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Public Api Web Script Container (in 2190.123ms)
+10:17:03,704 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 11 Web Scripts (+0 failed), 82 URLs
+10:17:03,704 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Package Description Documents (+0 failed) 
+10:17:03,704 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+10:17:06,707 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
+10:17:30,950 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] Exception from executeScript - redirecting to status template error: 01200005 Wrapped Exception (with status template): 01200006 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js': 01200005 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js#10)
+org.springframework.extensions.webscripts.WebScriptException: 01200005 Wrapped Exception (with status template): 01200006 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js': 01200005 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js#10)
+	at org.springframework.extensions.webscripts.AbstractWebScript.createStatusException(AbstractWebScript.java:1138)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:171)
+	at org.alfresco.repo.web.scripts.RepositoryContainer$3.execute(RepositoryContainer.java:505)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:457)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:580)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:649)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScriptInternal(RepositoryContainer.java:421)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:301)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:378)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:209)
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:132)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.alfresco.scripts.ScriptException: 01200006 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js': 01200005 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js#10)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:204)
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:212)
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:174)
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:102)
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86)
+	... 32 more
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 01200005 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js#10)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:526)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:200)
+	... 37 more
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js#10)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1._c_main_1(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js:10)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1.call(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js:24)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1.call(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1.call(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_repository_person_person_get_js_1.exec(classpath*:alfresco/templates/webscripts/org/alfresco/repository/person/person.get.js)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:502)
+	... 38 more
+10:17:31,188 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] Exception from executeScript - redirecting to status template error: 01200006 Wrapped Exception (with status template): 01200008 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js': 01200007 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js#20)
+org.springframework.extensions.webscripts.WebScriptException: 01200006 Wrapped Exception (with status template): 01200008 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js': 01200007 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js#20)
+	at org.springframework.extensions.webscripts.AbstractWebScript.createStatusException(AbstractWebScript.java:1138)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:171)
+	at org.alfresco.repo.web.scripts.RepositoryContainer$3.execute(RepositoryContainer.java:505)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:457)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:580)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:649)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScriptInternal(RepositoryContainer.java:421)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:301)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:378)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:209)
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:132)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.alfresco.scripts.ScriptException: 01200008 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js': 01200007 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js#20)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:204)
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:212)
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:174)
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:102)
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86)
+	... 32 more
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 01200007 ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js#20)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:526)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:200)
+	... 37 more
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "people" is not defined. (classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js#20)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_webframework_metadata_get_js_2._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js:20)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_webframework_metadata_get_js_2.call(classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_webframework_metadata_get_js_2.call(classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js)
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_webframework_metadata_get_js_2.exec(classpath*:alfresco/templates/webscripts/org/alfresco/webframework/metadata.get.js)
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:502)
+	... 38 more
+10:18:00,202 WARN  [org.alfresco.util.OpenOfficeConnectionTester] Error trying to query Open Office version information. OpenOffice.org's ConfigurationRegistry not implemented in this version of OOo. This should not affect the operation of OOo.
+10:18:00,203 INFO  [org.alfresco.util.OpenOfficeConnectionTester] The OpenOffice connection was re-established.
+10:26:48,553 ERROR [org.alfresco.util.SocketOpenOfficeConnection] disconnected unexpectedly
+10:26:48,789 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Replication' subsystem, ID: [Replication, default]
+10:26:48,792 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Replication' subsystem, ID: [Replication, default]
+10:26:48,855 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Subscriptions' subsystem, ID: [Subscriptions, default]
+10:26:48,856 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Subscriptions' subsystem, ID: [Subscriptions, default]
+10:26:48,857 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'email' subsystem, ID: [email, inbound]
+10:26:48,857 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'email' subsystem, ID: [email, inbound]
+10:26:48,858 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'fileServers' subsystem, ID: [fileServers, default]
+10:26:48,873 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'fileServers' subsystem, ID: [fileServers, default]
+10:26:48,883 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+10:26:48,884 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+10:26:48,885 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'solrSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:48,886 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'activitiesSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:48,888 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'OOoDirect' subsystem, ID: [OOoDirect, default]
+10:26:48,889 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'OOoDirect' subsystem, ID: [OOoDirect, default]
+10:26:48,890 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+10:26:48,890 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+10:26:48,893 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Synchronization' subsystem, ID: [Synchronization, default]
+10:26:48,894 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Synchronization' subsystem, ID: [Synchronization, default]
+10:26:48,910 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'email' subsystem, ID: [email, outbound]
+10:26:48,916 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'email' subsystem, ID: [email, outbound]
+10:26:48,935 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'imap' subsystem, ID: [imap, default]
+10:26:48,938 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'imap' subsystem, ID: [imap, default]
+10:26:49,157 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Search' subsystem, ID: [Search, hidden]
+10:26:49,597 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Search' subsystem, ID: [Search, hidden]
+10:26:49,689 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'locksSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:49,690 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'propertyValueSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:49,691 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'thirdparty' subsystem, ID: [thirdparty, default]
+10:26:49,691 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'thirdparty' subsystem, ID: [thirdparty, default]
+10:26:49,692 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Transformers' subsystem, ID: [Transformers, default]
+10:26:49,692 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Transformers' subsystem, ID: [Transformers, default]
+10:26:49,692 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'auditSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:49,692 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+10:26:49,693 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+10:26:49,693 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'sysAdmin' subsystem, ID: [sysAdmin, default]
+10:26:49,693 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'sysAdmin' subsystem, ID: [sysAdmin, default]
+10:26:49,694 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'contentSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+10:26:49,696 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'repoSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definition of new Model -->
+<model name="esign:esignModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+	<description>PDF add images model</description>
+	<author>Bruno Taboada for tenthline</author>
+	<version>1.0</version>
+
+	<imports>
+		<!-- Import Alfresco Dictionary Definitions -->
+		<import uri="http://www.alfresco.org/model/dictionary/1.0"
+			prefix="d" />
+		<!-- Import Alfresco Content Domain Model Definitions -->
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+	</imports>
+
+	<!-- create the PDF toolkit namespace -->
+	<namespaces>
+		<namespace uri="http://www.eisenvault.net/model/esign/1.0"
+			prefix="esign" />
+	</namespaces>
+	
+	<aspects>
+        <aspect name="esign:signPosition">
+            <title>Digital Signature Position</title>
+            <properties>
+                <property name="esign:xPosition">
+                	<title>Sign X Position</title>
+                    <type>d:int</type>
+                </property>
+                <property name="esign:yPosition">
+                	<title>Sign Y Position</title>
+                    <type>d:int</type>
+                </property>
+            </properties>
+        </aspect>
+     </aspects>
+
+</model>

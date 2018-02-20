@@ -1,0 +1,754 @@
+Validation: primary key .ALF_NODE.CONSTRAINT_91.name="CONSTRAINT_91" fails to match rule: name must match pattern 'alf_node_pkey1?'
+Validation: primary key .ALF_NODE_ASSOC.CONSTRAINT_32.name="CONSTRAINT_32" fails to match rule: name must match pattern 'alf_node_assoc_pkey1?'
+Difference: missing sequence from database, expected at path: .alf_access_control_entry_seq
+Difference: missing sequence from database, expected at path: .alf_access_control_list_seq
+Difference: missing sequence from database, expected at path: .alf_ace_context_seq
+Difference: missing sequence from database, expected at path: .alf_acl_change_set_seq
+Difference: missing sequence from database, expected at path: .alf_acl_member_seq
+Difference: missing sequence from database, expected at path: .alf_activity_feed_control_seq
+Difference: missing sequence from database, expected at path: .alf_activity_feed_seq
+Difference: missing sequence from database, expected at path: .alf_activity_post_seq
+Difference: missing sequence from database, expected at path: .alf_audit_app_seq
+Difference: missing sequence from database, expected at path: .alf_audit_entry_seq
+Difference: missing sequence from database, expected at path: .alf_audit_model_seq
+Difference: missing sequence from database, expected at path: .alf_authority_alias_seq
+Difference: missing sequence from database, expected at path: .alf_authority_seq
+Difference: missing sequence from database, expected at path: .alf_auth_status_seq
+Difference: missing sequence from database, expected at path: .alf_child_assoc_seq
+Difference: missing sequence from database, expected at path: .alf_content_data_seq
+Difference: missing sequence from database, expected at path: .alf_content_url_seq
+Difference: missing sequence from database, expected at path: .alf_content_url_enc_seq
+Difference: missing sequence from database, expected at path: .alf_encoding_seq
+Difference: missing sequence from database, expected at path: .alf_locale_seq
+Difference: missing sequence from database, expected at path: .alf_lock_resource_seq
+Difference: missing sequence from database, expected at path: .alf_lock_seq
+Difference: missing sequence from database, expected at path: .alf_mimetype_seq
+Difference: missing sequence from database, expected at path: .alf_namespace_seq
+Difference: missing sequence from database, expected at path: .alf_node_assoc_seq
+Difference: missing sequence from database, expected at path: .alf_node_seq
+Difference: missing sequence from database, expected at path: .alf_permission_seq
+Difference: missing sequence from database, expected at path: .alf_prop_class_seq
+Difference: missing sequence from database, expected at path: .alf_prop_double_value_seq
+Difference: missing sequence from database, expected at path: .alf_prop_root_seq
+Difference: missing sequence from database, expected at path: .alf_prop_serializable_value_seq
+Difference: missing sequence from database, expected at path: .alf_prop_string_value_seq
+Difference: missing sequence from database, expected at path: .alf_prop_unique_ctx_seq
+Difference: missing sequence from database, expected at path: .alf_prop_value_seq
+Difference: missing sequence from database, expected at path: .alf_qname_seq
+Difference: missing sequence from database, expected at path: .alf_server_seq
+Difference: missing sequence from database, expected at path: .alf_store_seq
+Difference: missing sequence from database, expected at path: .alf_transaction_seq
+Difference: missing sequence from database, expected at path: .alf_usage_delta_seq
+Difference: expected column .alf_access_control_entry.id.type="int8", but was .ALF_ACCESS_CONTROL_ENTRY.ID.type="bigint"
+Difference: expected column .alf_access_control_entry.version.type="int8", but was .ALF_ACCESS_CONTROL_ENTRY.VERSION.type="bigint"
+Difference: expected column .alf_access_control_entry.permission_id.type="int8", but was .ALF_ACCESS_CONTROL_ENTRY.PERMISSION_ID.type="bigint"
+Difference: expected column .alf_access_control_entry.authority_id.type="int8", but was .ALF_ACCESS_CONTROL_ENTRY.AUTHORITY_ID.type="bigint"
+Difference: expected column .alf_access_control_entry.allowed.type="bool", but was .ALF_ACCESS_CONTROL_ENTRY.ALLOWED.type="boolean"
+Difference: expected column .alf_access_control_entry.applies.type="int4", but was .ALF_ACCESS_CONTROL_ENTRY.APPLIES.type="integer"
+Difference: expected column .alf_access_control_entry.context_id.type="int8", but was .ALF_ACCESS_CONTROL_ENTRY.CONTEXT_ID.type="bigint"
+Difference: expected primary key .alf_access_control_entry.alf_access_control_entry_pkey.name="alf_access_control_entry_pkey", but was .ALF_ACCESS_CONTROL_ENTRY.CONSTRAINT_9A.name="CONSTRAINT_9A"
+Difference: expected primary key .alf_access_control_entry.alf_access_control_entry_pkey.columnNames[0]="id", but was .ALF_ACCESS_CONTROL_ENTRY.CONSTRAINT_9A.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_access_control_entry.fk_alf_ace_ctx
+Difference: missing foreign key from database, expected at path: .alf_access_control_entry.fk_alf_ace_auth
+Difference: missing foreign key from database, expected at path: .alf_access_control_entry.fk_alf_ace_perm
+Difference: unexpected foreign key found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_CTX
+Difference: unexpected foreign key found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_AUTH
+Difference: unexpected foreign key found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_PERM
+Difference: missing index from database, expected at path: .alf_access_control_entry.permission_id
+Difference: missing index from database, expected at path: .alf_access_control_entry.fk_alf_ace_auth
+Difference: missing index from database, expected at path: .alf_access_control_entry.fk_alf_ace_ctx
+Difference: missing index from database, expected at path: .alf_access_control_entry.fk_alf_ace_perm
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.PERMISSION_ID
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.PRIMARY_KEY_9A
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_AUTH
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_AUTH_INDEX_9
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_CTX
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_CTX_INDEX_9
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_PERM
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_ENTRY.FK_ALF_ACE_PERM_INDEX_9
+Difference: expected column .alf_access_control_list.id.type="int8", but was .ALF_ACCESS_CONTROL_LIST.ID.type="bigint"
+Difference: expected column .alf_access_control_list.version.type="int8", but was .ALF_ACCESS_CONTROL_LIST.VERSION.type="bigint"
+Difference: expected column .alf_access_control_list.latest.type="bool", but was .ALF_ACCESS_CONTROL_LIST.LATEST.type="boolean"
+Difference: expected column .alf_access_control_list.acl_version.type="int8", but was .ALF_ACCESS_CONTROL_LIST.ACL_VERSION.type="bigint"
+Difference: expected column .alf_access_control_list.inherits.type="bool", but was .ALF_ACCESS_CONTROL_LIST.INHERITS.type="boolean"
+Difference: expected column .alf_access_control_list.inherits_from.type="int8", but was .ALF_ACCESS_CONTROL_LIST.INHERITS_FROM.type="bigint"
+Difference: expected column .alf_access_control_list.type.type="int4", but was .ALF_ACCESS_CONTROL_LIST.TYPE.type="integer"
+Difference: expected column .alf_access_control_list.inherited_acl.type="int8", but was .ALF_ACCESS_CONTROL_LIST.INHERITED_ACL.type="bigint"
+Difference: expected column .alf_access_control_list.is_versioned.type="bool", but was .ALF_ACCESS_CONTROL_LIST.IS_VERSIONED.type="boolean"
+Difference: expected column .alf_access_control_list.requires_version.type="bool", but was .ALF_ACCESS_CONTROL_LIST.REQUIRES_VERSION.type="boolean"
+Difference: expected column .alf_access_control_list.acl_change_set.type="int8", but was .ALF_ACCESS_CONTROL_LIST.ACL_CHANGE_SET.type="bigint"
+Difference: expected primary key .alf_access_control_list.alf_access_control_list_pkey.name="alf_access_control_list_pkey", but was .ALF_ACCESS_CONTROL_LIST.CONSTRAINT_CB.name="CONSTRAINT_CB"
+Difference: expected primary key .alf_access_control_list.alf_access_control_list_pkey.columnNames[0]="id", but was .ALF_ACCESS_CONTROL_LIST.CONSTRAINT_CB.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_access_control_list.fk_alf_acl_acs
+Difference: unexpected foreign key found in database with path: .ALF_ACCESS_CONTROL_LIST.FK_ALF_ACL_ACS
+Difference: missing index from database, expected at path: .alf_access_control_list.acl_id
+Difference: missing index from database, expected at path: .alf_access_control_list.fk_alf_acl_acs
+Difference: missing index from database, expected at path: .alf_access_control_list.idx_alf_acl_inh
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_LIST.ACL_ID
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_LIST.PRIMARY_KEY_CB
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_LIST.FK_ALF_ACL_ACS
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_LIST.FK_ALF_ACL_ACS_INDEX_C
+Difference: unexpected index found in database with path: .ALF_ACCESS_CONTROL_LIST.IDX_ALF_ACL_INH
+Difference: expected column .alf_ace_context.id.type="int8", but was .ALF_ACE_CONTEXT.ID.type="bigint"
+Difference: expected column .alf_ace_context.version.type="int8", but was .ALF_ACE_CONTEXT.VERSION.type="bigint"
+Difference: expected primary key .alf_ace_context.alf_ace_context_pkey.name="alf_ace_context_pkey", but was .ALF_ACE_CONTEXT.CONSTRAINT_95.name="CONSTRAINT_95"
+Difference: expected primary key .alf_ace_context.alf_ace_context_pkey.columnNames[0]="id", but was .ALF_ACE_CONTEXT.CONSTRAINT_95.columnNames[0]="ID"
+Difference: unexpected index found in database with path: .ALF_ACE_CONTEXT.PRIMARY_KEY_95
+Difference: expected column .alf_acl_change_set.id.type="int8", but was .ALF_ACL_CHANGE_SET.ID.type="bigint"
+Difference: expected column .alf_acl_change_set.commit_time_ms.type="int8", but was .ALF_ACL_CHANGE_SET.COMMIT_TIME_MS.type="bigint"
+Difference: expected primary key .alf_acl_change_set.alf_acl_change_set_pkey.name="alf_acl_change_set_pkey", but was .ALF_ACL_CHANGE_SET.CONSTRAINT_C.name="CONSTRAINT_C"
+Difference: expected primary key .alf_acl_change_set.alf_acl_change_set_pkey.columnNames[0]="id", but was .ALF_ACL_CHANGE_SET.CONSTRAINT_C.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_acl_change_set.idx_alf_acs_ctms
+Difference: unexpected index found in database with path: .ALF_ACL_CHANGE_SET.PRIMARY_KEY_C
+Difference: unexpected index found in database with path: .ALF_ACL_CHANGE_SET.IDX_ALF_ACS_CTMS
+Difference: expected column .alf_acl_member.id.type="int8", but was .ALF_ACL_MEMBER.ID.type="bigint"
+Difference: expected column .alf_acl_member.version.type="int8", but was .ALF_ACL_MEMBER.VERSION.type="bigint"
+Difference: expected column .alf_acl_member.acl_id.type="int8", but was .ALF_ACL_MEMBER.ACL_ID.type="bigint"
+Difference: expected column .alf_acl_member.ace_id.type="int8", but was .ALF_ACL_MEMBER.ACE_ID.type="bigint"
+Difference: expected column .alf_acl_member.pos.type="int4", but was .ALF_ACL_MEMBER.POS.type="integer"
+Difference: expected primary key .alf_acl_member.alf_acl_member_pkey.name="alf_acl_member_pkey", but was .ALF_ACL_MEMBER.CONSTRAINT_5.name="CONSTRAINT_5"
+Difference: expected primary key .alf_acl_member.alf_acl_member_pkey.columnNames[0]="id", but was .ALF_ACL_MEMBER.CONSTRAINT_5.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_acl_member.fk_alf_aclm_ace
+Difference: missing foreign key from database, expected at path: .alf_acl_member.fk_alf_aclm_acl
+Difference: unexpected foreign key found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACE
+Difference: unexpected foreign key found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACL
+Difference: missing index from database, expected at path: .alf_acl_member.aclm_acl_id
+Difference: missing index from database, expected at path: .alf_acl_member.fk_alf_aclm_ace
+Difference: missing index from database, expected at path: .alf_acl_member.fk_alf_aclm_acl
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.ACLM_ACL_ID
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.PRIMARY_KEY_5
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACE
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACE_INDEX_5
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACL
+Difference: unexpected index found in database with path: .ALF_ACL_MEMBER.FK_ALF_ACLM_ACL_INDEX_5
+Difference: expected column .alf_activity_feed.id.type="int8", but was .ALF_ACTIVITY_FEED.ID.type="bigint"
+Difference: expected column .alf_activity_feed.post_id.type="int8", but was .ALF_ACTIVITY_FEED.POST_ID.type="bigint"
+Difference: expected primary key .alf_activity_feed.alf_activity_feed_pkey.name="alf_activity_feed_pkey", but was .ALF_ACTIVITY_FEED.CONSTRAINT_53.name="CONSTRAINT_53"
+Difference: expected primary key .alf_activity_feed.alf_activity_feed_pkey.columnNames[0]="id", but was .ALF_ACTIVITY_FEED.CONSTRAINT_53.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_activity_feed.feed_feeduserid_idx
+Difference: missing index from database, expected at path: .alf_activity_feed.feed_postdate_idx
+Difference: missing index from database, expected at path: .alf_activity_feed.feed_postuserid_idx
+Difference: missing index from database, expected at path: .alf_activity_feed.feed_sitenetwork_idx
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED.PRIMARY_KEY_53
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED.FEED_FEEDUSERID_IDX
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED.FEED_POSTDATE_IDX
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED.FEED_POSTUSERID_IDX
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED.FEED_SITENETWORK_IDX
+Difference: expected column .alf_activity_feed_control.id.type="int8", but was .ALF_ACTIVITY_FEED_CONTROL.ID.type="bigint"
+Difference: expected primary key .alf_activity_feed_control.alf_activity_feed_control_pkey.name="alf_activity_feed_control_pkey", but was .ALF_ACTIVITY_FEED_CONTROL.CONSTRAINT_48.name="CONSTRAINT_48"
+Difference: expected primary key .alf_activity_feed_control.alf_activity_feed_control_pkey.columnNames[0]="id", but was .ALF_ACTIVITY_FEED_CONTROL.CONSTRAINT_48.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_activity_feed_control.feedctrl_feeduserid_idx
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED_CONTROL.PRIMARY_KEY_48
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_FEED_CONTROL.FEEDCTRL_FEEDUSERID_IDX
+Difference: expected column .alf_activity_post.sequence_id.type="int8", but was .ALF_ACTIVITY_POST.SEQUENCE_ID.type="bigint"
+Difference: expected column .alf_activity_post.job_task_node.type="int4", but was .ALF_ACTIVITY_POST.JOB_TASK_NODE.type="integer"
+Difference: expected primary key .alf_activity_post.alf_activity_post_pkey.name="alf_activity_post_pkey", but was .ALF_ACTIVITY_POST.CONSTRAINT_537.name="CONSTRAINT_537"
+Difference: expected primary key .alf_activity_post.alf_activity_post_pkey.columnNames[0]="sequence_id", but was .ALF_ACTIVITY_POST.CONSTRAINT_537.columnNames[0]="SEQUENCE_ID"
+Difference: missing index from database, expected at path: .alf_activity_post.post_jobtasknode_idx
+Difference: missing index from database, expected at path: .alf_activity_post.post_status_idx
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_POST.PRIMARY_KEY_537
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_POST.POST_JOBTASKNODE_IDX
+Difference: unexpected index found in database with path: .ALF_ACTIVITY_POST.POST_STATUS_IDX
+Difference: expected column .alf_applied_patch.fixes_from_schema.type="int4", but was .ALF_APPLIED_PATCH.FIXES_FROM_SCHEMA.type="integer"
+Difference: expected column .alf_applied_patch.fixes_to_schema.type="int4", but was .ALF_APPLIED_PATCH.FIXES_TO_SCHEMA.type="integer"
+Difference: expected column .alf_applied_patch.applied_to_schema.type="int4", but was .ALF_APPLIED_PATCH.APPLIED_TO_SCHEMA.type="integer"
+Difference: expected column .alf_applied_patch.target_schema.type="int4", but was .ALF_APPLIED_PATCH.TARGET_SCHEMA.type="integer"
+Difference: expected column .alf_applied_patch.was_executed.type="bool", but was .ALF_APPLIED_PATCH.WAS_EXECUTED.type="boolean"
+Difference: expected column .alf_applied_patch.succeeded.type="bool", but was .ALF_APPLIED_PATCH.SUCCEEDED.type="boolean"
+Difference: expected primary key .alf_applied_patch.alf_applied_patch_pkey.name="alf_applied_patch_pkey", but was .ALF_APPLIED_PATCH.CONSTRAINT_D.name="CONSTRAINT_D"
+Difference: expected primary key .alf_applied_patch.alf_applied_patch_pkey.columnNames[0]="id", but was .ALF_APPLIED_PATCH.CONSTRAINT_D.columnNames[0]="ID"
+Difference: unexpected index found in database with path: .ALF_APPLIED_PATCH.PRIMARY_KEY_D
+Difference: expected column .alf_audit_app.id.type="int8", but was .ALF_AUDIT_APP.ID.type="bigint"
+Difference: expected column .alf_audit_app.version.type="int4", but was .ALF_AUDIT_APP.VERSION.type="integer"
+Difference: expected column .alf_audit_app.app_name_id.type="int8", but was .ALF_AUDIT_APP.APP_NAME_ID.type="bigint"
+Difference: expected column .alf_audit_app.audit_model_id.type="int8", but was .ALF_AUDIT_APP.AUDIT_MODEL_ID.type="bigint"
+Difference: expected column .alf_audit_app.disabled_paths_id.type="int8", but was .ALF_AUDIT_APP.DISABLED_PATHS_ID.type="bigint"
+Difference: expected primary key .alf_audit_app.alf_audit_app_pkey.name="alf_audit_app_pkey", but was .ALF_AUDIT_APP.CONSTRAINT_E7.name="CONSTRAINT_E7"
+Difference: expected primary key .alf_audit_app.alf_audit_app_pkey.columnNames[0]="id", but was .ALF_AUDIT_APP.CONSTRAINT_E7.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_audit_app.fk_alf_aud_app_mod
+Difference: missing foreign key from database, expected at path: .alf_audit_app.fk_alf_aud_app_dis
+Difference: missing foreign key from database, expected at path: .alf_audit_app.fk_alf_aud_app_an
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_MOD
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_DIS
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_AN
+Difference: missing index from database, expected at path: .alf_audit_app.idx_alf_aud_app_an
+Difference: missing index from database, expected at path: .alf_audit_app.fk_alf_aud_app_dis
+Difference: missing index from database, expected at path: .alf_audit_app.fk_alf_aud_app_mod
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.IDX_ALF_AUD_APP_AN_INDEX_E
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.PRIMARY_KEY_E7
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_DIS
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_DIS_INDEX_E
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_MOD
+Difference: unexpected index found in database with path: .ALF_AUDIT_APP.FK_ALF_AUD_APP_MOD_INDEX_E
+Difference: expected column .alf_audit_entry.id.type="int8", but was .ALF_AUDIT_ENTRY.ID.type="bigint"
+Difference: expected column .alf_audit_entry.audit_app_id.type="int8", but was .ALF_AUDIT_ENTRY.AUDIT_APP_ID.type="bigint"
+Difference: expected column .alf_audit_entry.audit_time.type="int8", but was .ALF_AUDIT_ENTRY.AUDIT_TIME.type="bigint"
+Difference: expected column .alf_audit_entry.audit_user_id.type="int8", but was .ALF_AUDIT_ENTRY.AUDIT_USER_ID.type="bigint"
+Difference: expected column .alf_audit_entry.audit_values_id.type="int8", but was .ALF_AUDIT_ENTRY.AUDIT_VALUES_ID.type="bigint"
+Difference: expected primary key .alf_audit_entry.alf_audit_entry_pkey.name="alf_audit_entry_pkey", but was .ALF_AUDIT_ENTRY.CONSTRAINT_DE.name="CONSTRAINT_DE"
+Difference: expected primary key .alf_audit_entry.alf_audit_entry_pkey.columnNames[0]="id", but was .ALF_AUDIT_ENTRY.CONSTRAINT_DE.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_app
+Difference: missing foreign key from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_pro
+Difference: missing foreign key from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_use
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_APP
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_PRO
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_USE
+Difference: missing index from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_app
+Difference: missing index from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_pro
+Difference: missing index from database, expected at path: .alf_audit_entry.fk_alf_aud_ent_use
+Difference: missing index from database, expected at path: .alf_audit_entry.idx_alf_aud_ent_tm
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.PRIMARY_KEY_DE
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_APP
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_APP_INDEX_D
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_PRO
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_PRO_INDEX_D
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_USE
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.FK_ALF_AUD_ENT_USE_INDEX_D
+Difference: unexpected index found in database with path: .ALF_AUDIT_ENTRY.IDX_ALF_AUD_ENT_TM
+Difference: expected column .alf_audit_model.id.type="int8", but was .ALF_AUDIT_MODEL.ID.type="bigint"
+Difference: expected column .alf_audit_model.content_data_id.type="int8", but was .ALF_AUDIT_MODEL.CONTENT_DATA_ID.type="bigint"
+Difference: expected column .alf_audit_model.content_crc.type="int8", but was .ALF_AUDIT_MODEL.CONTENT_CRC.type="bigint"
+Difference: expected primary key .alf_audit_model.alf_audit_model_pkey.name="alf_audit_model_pkey", but was .ALF_AUDIT_MODEL.CONSTRAINT_DF.name="CONSTRAINT_DF"
+Difference: expected primary key .alf_audit_model.alf_audit_model_pkey.columnNames[0]="id", but was .ALF_AUDIT_MODEL.CONSTRAINT_DF.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_audit_model.fk_alf_aud_mod_cd
+Difference: unexpected foreign key found in database with path: .ALF_AUDIT_MODEL.FK_ALF_AUD_MOD_CD
+Difference: missing index from database, expected at path: .alf_audit_model.idx_alf_aud_mod_cr
+Difference: missing index from database, expected at path: .alf_audit_model.fk_alf_aud_mod_cd
+Difference: unexpected index found in database with path: .ALF_AUDIT_MODEL.IDX_ALF_AUD_MOD_CR
+Difference: unexpected index found in database with path: .ALF_AUDIT_MODEL.PRIMARY_KEY_DF
+Difference: unexpected index found in database with path: .ALF_AUDIT_MODEL.FK_ALF_AUD_MOD_CD
+Difference: unexpected index found in database with path: .ALF_AUDIT_MODEL.FK_ALF_AUD_MOD_CD_INDEX_D
+Difference: expected column .alf_authority.id.type="int8", but was .ALF_AUTHORITY.ID.type="bigint"
+Difference: expected column .alf_authority.version.type="int8", but was .ALF_AUTHORITY.VERSION.type="bigint"
+Difference: expected column .alf_authority.crc.type="int8", but was .ALF_AUTHORITY.CRC.type="bigint"
+Difference: expected primary key .alf_authority.alf_authority_pkey.name="alf_authority_pkey", but was .ALF_AUTHORITY.CONSTRAINT_3.name="CONSTRAINT_3"
+Difference: expected primary key .alf_authority.alf_authority_pkey.columnNames[0]="id", but was .ALF_AUTHORITY.CONSTRAINT_3.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_authority.authority
+Difference: missing index from database, expected at path: .alf_authority.idx_alf_auth_aut
+Difference: unexpected index found in database with path: .ALF_AUTHORITY.AUTHORITY
+Difference: unexpected index found in database with path: .ALF_AUTHORITY.PRIMARY_KEY_3
+Difference: unexpected index found in database with path: .ALF_AUTHORITY.IDX_ALF_AUTH_AUT
+Difference: expected column .alf_authority_alias.id.type="int8", but was .ALF_AUTHORITY_ALIAS.ID.type="bigint"
+Difference: expected column .alf_authority_alias.version.type="int8", but was .ALF_AUTHORITY_ALIAS.VERSION.type="bigint"
+Difference: expected column .alf_authority_alias.auth_id.type="int8", but was .ALF_AUTHORITY_ALIAS.AUTH_ID.type="bigint"
+Difference: expected column .alf_authority_alias.alias_id.type="int8", but was .ALF_AUTHORITY_ALIAS.ALIAS_ID.type="bigint"
+Difference: expected primary key .alf_authority_alias.alf_authority_alias_pkey.name="alf_authority_alias_pkey", but was .ALF_AUTHORITY_ALIAS.CONSTRAINT_2C.name="CONSTRAINT_2C"
+Difference: expected primary key .alf_authority_alias.alf_authority_alias_pkey.columnNames[0]="id", but was .ALF_AUTHORITY_ALIAS.CONSTRAINT_2C.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_authority_alias.fk_alf_autha_ali
+Difference: missing foreign key from database, expected at path: .alf_authority_alias.fk_alf_autha_aut
+Difference: unexpected foreign key found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_ALI
+Difference: unexpected foreign key found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_AUT
+Difference: missing index from database, expected at path: .alf_authority_alias.auth_id
+Difference: missing index from database, expected at path: .alf_authority_alias.fk_alf_autha_ali
+Difference: missing index from database, expected at path: .alf_authority_alias.fk_alf_autha_aut
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.AUTH_ID
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.PRIMARY_KEY_2C
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_ALI
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_ALI_INDEX_2
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_AUT
+Difference: unexpected index found in database with path: .ALF_AUTHORITY_ALIAS.FK_ALF_AUTHA_AUT_INDEX_2
+Difference: expected column .alf_auth_status.id.type="int8", but was .ALF_AUTH_STATUS.ID.type="bigint"
+Difference: expected column .alf_auth_status.deleted.type="bool", but was .ALF_AUTH_STATUS.DELETED.type="boolean"
+Difference: expected column .alf_auth_status.authorized.type="bool", but was .ALF_AUTH_STATUS.AUTHORIZED.type="boolean"
+Difference: expected column .alf_auth_status.checksum.type="bytea", but was .ALF_AUTH_STATUS.CHECKSUM.type="varbinary"
+Difference: expected primary key .alf_auth_status.alf_auth_status_pkey.name="alf_auth_status_pkey", but was .ALF_AUTH_STATUS.CONSTRAINT_ED.name="CONSTRAINT_ED"
+Difference: expected primary key .alf_auth_status.alf_auth_status_pkey.columnNames[0]="id", but was .ALF_AUTH_STATUS.CONSTRAINT_ED.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_auth_status.idx_alf_auth_usr_stat
+Difference: missing index from database, expected at path: .alf_auth_status.idx_alf_auth_deleted
+Difference: missing index from database, expected at path: .alf_auth_status.idx_alf_auth_action
+Difference: unexpected index found in database with path: .ALF_AUTH_STATUS.IDX_ALF_AUTH_USR_STAT
+Difference: unexpected index found in database with path: .ALF_AUTH_STATUS.PRIMARY_KEY_ED
+Difference: unexpected index found in database with path: .ALF_AUTH_STATUS.IDX_ALF_AUTH_ACTION
+Difference: unexpected index found in database with path: .ALF_AUTH_STATUS.IDX_ALF_AUTH_DELETED
+Difference: expected column .alf_child_assoc.id.type="int8", but was .ALF_CHILD_ASSOC.ID.type="bigint"
+Difference: expected column .alf_child_assoc.version.type="int8", but was .ALF_CHILD_ASSOC.VERSION.type="bigint"
+Difference: expected column .alf_child_assoc.parent_node_id.type="int8", but was .ALF_CHILD_ASSOC.PARENT_NODE_ID.type="bigint"
+Difference: expected column .alf_child_assoc.type_qname_id.type="int8", but was .ALF_CHILD_ASSOC.TYPE_QNAME_ID.type="bigint"
+Difference: expected column .alf_child_assoc.child_node_name_crc.type="int8", but was .ALF_CHILD_ASSOC.CHILD_NODE_NAME_CRC.type="bigint"
+Difference: expected column .alf_child_assoc.child_node_id.type="int8", but was .ALF_CHILD_ASSOC.CHILD_NODE_ID.type="bigint"
+Difference: expected column .alf_child_assoc.qname_ns_id.type="int8", but was .ALF_CHILD_ASSOC.QNAME_NS_ID.type="bigint"
+Difference: expected column .alf_child_assoc.qname_crc.type="int8", but was .ALF_CHILD_ASSOC.QNAME_CRC.type="bigint"
+Difference: expected column .alf_child_assoc.is_primary.type="bool", but was .ALF_CHILD_ASSOC.IS_PRIMARY.type="boolean"
+Difference: expected column .alf_child_assoc.assoc_index.type="int4", but was .ALF_CHILD_ASSOC.ASSOC_INDEX.type="integer"
+Difference: expected primary key .alf_child_assoc.alf_child_assoc_pkey.name="alf_child_assoc_pkey", but was .ALF_CHILD_ASSOC.CONSTRAINT_6.name="CONSTRAINT_6"
+Difference: expected primary key .alf_child_assoc.alf_child_assoc_pkey.columnNames[0]="id", but was .ALF_CHILD_ASSOC.CONSTRAINT_6.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_child_assoc.fk_alf_cass_qnns
+Difference: missing foreign key from database, expected at path: .alf_child_assoc.fk_alf_cass_pnode
+Difference: missing foreign key from database, expected at path: .alf_child_assoc.fk_alf_cass_cnode
+Difference: missing foreign key from database, expected at path: .alf_child_assoc.fk_alf_cass_tqn
+Difference: unexpected foreign key found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_QNNS
+Difference: unexpected foreign key found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_CNODE
+Difference: unexpected foreign key found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_PNODE
+Difference: unexpected foreign key found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_TQN
+Difference: missing index from database, expected at path: .alf_child_assoc.parent_node_id
+Difference: missing index from database, expected at path: .alf_child_assoc.fk_alf_cass_cnode
+Difference: missing index from database, expected at path: .alf_child_assoc.idx_alf_cass_pnode
+Difference: missing index from database, expected at path: .alf_child_assoc.fk_alf_cass_qnns
+Difference: missing index from database, expected at path: .alf_child_assoc.fk_alf_cass_tqn
+Difference: missing index from database, expected at path: .alf_child_assoc.idx_alf_cass_pri
+Difference: missing index from database, expected at path: .alf_child_assoc.idx_alf_cass_qncrc
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.PARENT_NODE_ID
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.PRIMARY_KEY_6
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_CNODE
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_CNODE_INDEX_6
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_PNODE_INDEX_6
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_QNNS
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_QNNS_INDEX_6
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_TQN
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.FK_ALF_CASS_TQN_INDEX_6
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.IDX_ALF_CASS_PNODE
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.IDX_ALF_CASS_PRI
+Difference: unexpected index found in database with path: .ALF_CHILD_ASSOC.IDX_ALF_CASS_QNCRC
+Difference: expected column .alf_content_data.id.type="int8", but was .ALF_CONTENT_DATA.ID.type="bigint"
+Difference: expected column .alf_content_data.version.type="int8", but was .ALF_CONTENT_DATA.VERSION.type="bigint"
+Difference: expected column .alf_content_data.content_url_id.type="int8", but was .ALF_CONTENT_DATA.CONTENT_URL_ID.type="bigint"
+Difference: expected column .alf_content_data.content_mimetype_id.type="int8", but was .ALF_CONTENT_DATA.CONTENT_MIMETYPE_ID.type="bigint"
+Difference: expected column .alf_content_data.content_encoding_id.type="int8", but was .ALF_CONTENT_DATA.CONTENT_ENCODING_ID.type="bigint"
+Difference: expected column .alf_content_data.content_locale_id.type="int8", but was .ALF_CONTENT_DATA.CONTENT_LOCALE_ID.type="bigint"
+Difference: expected primary key .alf_content_data.alf_content_data_pkey.name="alf_content_data_pkey", but was .ALF_CONTENT_DATA.CONSTRAINT_F5.name="CONSTRAINT_F5"
+Difference: expected primary key .alf_content_data.alf_content_data_pkey.columnNames[0]="id", but was .ALF_CONTENT_DATA.CONSTRAINT_F5.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_content_data.fk_alf_cont_url
+Difference: missing foreign key from database, expected at path: .alf_content_data.fk_alf_cont_enc
+Difference: missing foreign key from database, expected at path: .alf_content_data.fk_alf_cont_loc
+Difference: missing foreign key from database, expected at path: .alf_content_data.fk_alf_cont_mim
+Difference: unexpected foreign key found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_URL
+Difference: unexpected foreign key found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_ENC
+Difference: unexpected foreign key found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_LOC
+Difference: unexpected foreign key found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_MIM
+Difference: missing index from database, expected at path: .alf_content_data.fk_alf_cont_enc
+Difference: missing index from database, expected at path: .alf_content_data.fk_alf_cont_loc
+Difference: missing index from database, expected at path: .alf_content_data.fk_alf_cont_mim
+Difference: missing index from database, expected at path: .alf_content_data.fk_alf_cont_url
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.PRIMARY_KEY_F5
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_ENC
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_ENC_INDEX_F
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_LOC
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_LOC_INDEX_F
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_MIM
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_MIM_INDEX_F
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_URL
+Difference: unexpected index found in database with path: .ALF_CONTENT_DATA.FK_ALF_CONT_URL_INDEX_F
+Difference: expected column .alf_content_url.id.type="int8", but was .ALF_CONTENT_URL.ID.type="bigint"
+Difference: expected column .alf_content_url.content_url_crc.type="int8", but was .ALF_CONTENT_URL.CONTENT_URL_CRC.type="bigint"
+Difference: expected column .alf_content_url.content_size.type="int8", but was .ALF_CONTENT_URL.CONTENT_SIZE.type="bigint"
+Difference: expected column .alf_content_url.orphan_time.type="int8", but was .ALF_CONTENT_URL.ORPHAN_TIME.type="bigint"
+Difference: expected primary key .alf_content_url.alf_content_url_pkey.name="alf_content_url_pkey", but was .ALF_CONTENT_URL.CONSTRAINT_5A.name="CONSTRAINT_5A"
+Difference: expected primary key .alf_content_url.alf_content_url_pkey.columnNames[0]="id", but was .ALF_CONTENT_URL.CONSTRAINT_5A.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_content_url.idx_alf_conturl_cr
+Difference: missing index from database, expected at path: .alf_content_url.idx_alf_conturl_ot
+Difference: missing index from database, expected at path: .alf_content_url.idx_alf_conturl_sz
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL.IDX_ALF_CONTURL_CR
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL.PRIMARY_KEY_5A
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL.IDX_ALF_CONTURL_OT
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL.IDX_ALF_CONTURL_SZ
+Difference: expected column .alf_content_url_encryption.id.type="int8", but was .ALF_CONTENT_URL_ENCRYPTION.ID.type="bigint"
+Difference: expected column .alf_content_url_encryption.content_url_id.type="int8", but was .ALF_CONTENT_URL_ENCRYPTION.CONTENT_URL_ID.type="bigint"
+Difference: expected column .alf_content_url_encryption.key_size.type="int4", but was .ALF_CONTENT_URL_ENCRYPTION.KEY_SIZE.type="integer"
+Difference: expected column .alf_content_url_encryption.encrypted_key.type="bytea", but was .ALF_CONTENT_URL_ENCRYPTION.ENCRYPTED_KEY.type="varbinary"
+Difference: expected column .alf_content_url_encryption.unencrypted_file_size.type="int8", but was .ALF_CONTENT_URL_ENCRYPTION.UNENCRYPTED_FILE_SIZE.type="bigint"
+Difference: expected primary key .alf_content_url_encryption.alf_content_url_encryption_pkey.name="alf_content_url_encryption_pkey", but was .ALF_CONTENT_URL_ENCRYPTION.CONSTRAINT_EB.name="CONSTRAINT_EB"
+Difference: expected primary key .alf_content_url_encryption.alf_content_url_encryption_pkey.columnNames[0]="id", but was .ALF_CONTENT_URL_ENCRYPTION.CONSTRAINT_EB.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_content_url_encryption.fk_alf_cont_enc_url
+Difference: unexpected foreign key found in database with path: .ALF_CONTENT_URL_ENCRYPTION.FK_ALF_CONT_ENC_URL
+Difference: missing index from database, expected at path: .alf_content_url_encryption.idx_alf_cont_enc_url
+Difference: missing index from database, expected at path: .alf_content_url_encryption.idx_alf_cont_enc_mka
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL_ENCRYPTION.IDX_ALF_CONT_ENC_URL
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL_ENCRYPTION.PRIMARY_KEY_EB
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL_ENCRYPTION.FK_ALF_CONT_ENC_URL_INDEX_E
+Difference: unexpected index found in database with path: .ALF_CONTENT_URL_ENCRYPTION.IDX_ALF_CONT_ENC_MKA
+Difference: expected column .alf_encoding.id.type="int8", but was .ALF_ENCODING.ID.type="bigint"
+Difference: expected column .alf_encoding.version.type="int8", but was .ALF_ENCODING.VERSION.type="bigint"
+Difference: expected primary key .alf_encoding.alf_encoding_pkey.name="alf_encoding_pkey", but was .ALF_ENCODING.CONSTRAINT_8E.name="CONSTRAINT_8E"
+Difference: expected primary key .alf_encoding.alf_encoding_pkey.columnNames[0]="id", but was .ALF_ENCODING.CONSTRAINT_8E.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_encoding.alf_encoding_encoding_str_key
+Difference: unexpected index found in database with path: .ALF_ENCODING.CONSTRAINT_INDEX_8
+Difference: unexpected index found in database with path: .ALF_ENCODING.PRIMARY_KEY_8E
+Difference: expected column .alf_locale.id.type="int8", but was .ALF_LOCALE.ID.type="bigint"
+Difference: expected column .alf_locale.version.type="int8", but was .ALF_LOCALE.VERSION.type="bigint"
+Difference: expected primary key .alf_locale.alf_locale_pkey.name="alf_locale_pkey", but was .ALF_LOCALE.CONSTRAINT_9.name="CONSTRAINT_9"
+Difference: expected primary key .alf_locale.alf_locale_pkey.columnNames[0]="id", but was .ALF_LOCALE.CONSTRAINT_9.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_locale.locale_str
+Difference: unexpected index found in database with path: .ALF_LOCALE.LOCALE_STR
+Difference: unexpected index found in database with path: .ALF_LOCALE.PRIMARY_KEY_9
+Difference: expected column .alf_lock.id.type="int8", but was .ALF_LOCK.ID.type="bigint"
+Difference: expected column .alf_lock.version.type="int8", but was .ALF_LOCK.VERSION.type="bigint"
+Difference: expected column .alf_lock.shared_resource_id.type="int8", but was .ALF_LOCK.SHARED_RESOURCE_ID.type="bigint"
+Difference: expected column .alf_lock.excl_resource_id.type="int8", but was .ALF_LOCK.EXCL_RESOURCE_ID.type="bigint"
+Difference: expected column .alf_lock.start_time.type="int8", but was .ALF_LOCK.START_TIME.type="bigint"
+Difference: expected column .alf_lock.expiry_time.type="int8", but was .ALF_LOCK.EXPIRY_TIME.type="bigint"
+Difference: expected primary key .alf_lock.alf_lock_pkey.name="alf_lock_pkey", but was .ALF_LOCK.CONSTRAINT_915.name="CONSTRAINT_915"
+Difference: expected primary key .alf_lock.alf_lock_pkey.columnNames[0]="id", but was .ALF_LOCK.CONSTRAINT_915.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_lock.fk_alf_lock_excl
+Difference: missing foreign key from database, expected at path: .alf_lock.fk_alf_lock_shared
+Difference: unexpected foreign key found in database with path: .ALF_LOCK.FK_ALF_LOCK_EXCL
+Difference: unexpected foreign key found in database with path: .ALF_LOCK.FK_ALF_LOCK_SHARED
+Difference: missing index from database, expected at path: .alf_lock.idx_alf_lock_key
+Difference: missing index from database, expected at path: .alf_lock.fk_alf_lock_excl
+Difference: unexpected index found in database with path: .ALF_LOCK.IDX_ALF_LOCK_KEY
+Difference: unexpected index found in database with path: .ALF_LOCK.PRIMARY_KEY_915
+Difference: unexpected index found in database with path: .ALF_LOCK.FK_ALF_LOCK_EXCL
+Difference: unexpected index found in database with path: .ALF_LOCK.FK_ALF_LOCK_EXCL_INDEX_9
+Difference: unexpected index found in database with path: .ALF_LOCK.FK_ALF_LOCK_SHARED_INDEX_9
+Difference: expected column .alf_lock_resource.id.type="int8", but was .ALF_LOCK_RESOURCE.ID.type="bigint"
+Difference: expected column .alf_lock_resource.version.type="int8", but was .ALF_LOCK_RESOURCE.VERSION.type="bigint"
+Difference: expected column .alf_lock_resource.qname_ns_id.type="int8", but was .ALF_LOCK_RESOURCE.QNAME_NS_ID.type="bigint"
+Difference: expected primary key .alf_lock_resource.alf_lock_resource_pkey.name="alf_lock_resource_pkey", but was .ALF_LOCK_RESOURCE.CONSTRAINT_AD.name="CONSTRAINT_AD"
+Difference: expected primary key .alf_lock_resource.alf_lock_resource_pkey.columnNames[0]="id", but was .ALF_LOCK_RESOURCE.CONSTRAINT_AD.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_lock_resource.fk_alf_lockr_ns
+Difference: unexpected foreign key found in database with path: .ALF_LOCK_RESOURCE.FK_ALF_LOCKR_NS
+Difference: missing index from database, expected at path: .alf_lock_resource.idx_alf_lockr_key
+Difference: unexpected index found in database with path: .ALF_LOCK_RESOURCE.IDX_ALF_LOCKR_KEY
+Difference: unexpected index found in database with path: .ALF_LOCK_RESOURCE.PRIMARY_KEY_AD
+Difference: unexpected index found in database with path: .ALF_LOCK_RESOURCE.FK_ALF_LOCKR_NS_INDEX_A
+Difference: expected column .alf_mimetype.id.type="int8", but was .ALF_MIMETYPE.ID.type="bigint"
+Difference: expected column .alf_mimetype.version.type="int8", but was .ALF_MIMETYPE.VERSION.type="bigint"
+Difference: expected primary key .alf_mimetype.alf_mimetype_pkey.name="alf_mimetype_pkey", but was .ALF_MIMETYPE.CONSTRAINT_D5.name="CONSTRAINT_D5"
+Difference: expected primary key .alf_mimetype.alf_mimetype_pkey.columnNames[0]="id", but was .ALF_MIMETYPE.CONSTRAINT_D5.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_mimetype.alf_mimetype_mimetype_str_key
+Difference: unexpected index found in database with path: .ALF_MIMETYPE.CONSTRAINT_INDEX_D
+Difference: unexpected index found in database with path: .ALF_MIMETYPE.PRIMARY_KEY_D5
+Difference: expected column .alf_namespace.id.type="int8", but was .ALF_NAMESPACE.ID.type="bigint"
+Difference: expected column .alf_namespace.version.type="int8", but was .ALF_NAMESPACE.VERSION.type="bigint"
+Difference: expected primary key .alf_namespace.alf_namespace_pkey.name="alf_namespace_pkey", but was .ALF_NAMESPACE.CONSTRAINT_2.name="CONSTRAINT_2"
+Difference: expected primary key .alf_namespace.alf_namespace_pkey.columnNames[0]="id", but was .ALF_NAMESPACE.CONSTRAINT_2.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_namespace.uri
+Difference: unexpected index found in database with path: .ALF_NAMESPACE.PRIMARY_KEY_2
+Difference: unexpected index found in database with path: .ALF_NAMESPACE.URI
+Difference: expected column .alf_node.id.type="int8", but was .ALF_NODE.ID.type="bigint"
+Difference: expected column .alf_node.version.type="int8", but was .ALF_NODE.VERSION.type="bigint"
+Difference: expected column .alf_node.store_id.type="int8", but was .ALF_NODE.STORE_ID.type="bigint"
+Difference: expected column .alf_node.transaction_id.type="int8", but was .ALF_NODE.TRANSACTION_ID.type="bigint"
+Difference: expected column .alf_node.type_qname_id.type="int8", but was .ALF_NODE.TYPE_QNAME_ID.type="bigint"
+Difference: expected column .alf_node.locale_id.type="int8", but was .ALF_NODE.LOCALE_ID.type="bigint"
+Difference: expected column .alf_node.acl_id.type="int8", but was .ALF_NODE.ACL_ID.type="bigint"
+Difference: expected primary key .alf_node.alf_node_pkey.columnNames[0]="id", but was .ALF_NODE.CONSTRAINT_91.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_node.fk_alf_node_acl
+Difference: missing foreign key from database, expected at path: .alf_node.fk_alf_node_loc
+Difference: missing foreign key from database, expected at path: .alf_node.fk_alf_node_tqn
+Difference: missing foreign key from database, expected at path: .alf_node.fk_alf_node_store
+Difference: missing foreign key from database, expected at path: .alf_node.fk_alf_node_txn
+Difference: unexpected foreign key found in database with path: .ALF_NODE.FK_ALF_NODE_ACL
+Difference: unexpected foreign key found in database with path: .ALF_NODE.FK_ALF_NODE_LOC
+Difference: unexpected foreign key found in database with path: .ALF_NODE.FK_ALF_NODE_TQN
+Difference: unexpected foreign key found in database with path: .ALF_NODE.FK_ALF_NODE_STORE
+Difference: unexpected foreign key found in database with path: .ALF_NODE.FK_ALF_NODE_TXN
+Difference: missing index from database, expected at path: .alf_node.store_id
+Difference: missing index from database, expected at path: .alf_node.fk_alf_node_acl
+Difference: missing index from database, expected at path: .alf_node.fk_alf_node_loc
+Difference: missing index from database, expected at path: .alf_node.fk_alf_node_store
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_tqn
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_txn_type
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_mdq
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_cor
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_crd
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_mor
+Difference: missing index from database, expected at path: .alf_node.idx_alf_node_mod
+Difference: unexpected index found in database with path: .ALF_NODE.PRIMARY_KEY_91
+Difference: unexpected index found in database with path: .ALF_NODE.STORE_ID
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_ACL
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_ACL_INDEX_9
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_LOC
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_LOC_INDEX_9
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_STORE
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_STORE_INDEX_9
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_TQN_INDEX_9
+Difference: unexpected index found in database with path: .ALF_NODE.FK_ALF_NODE_TXN_INDEX_9
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_COR
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_CRD
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_MDQ
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_MOD
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_MOR
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_TQN
+Difference: unexpected index found in database with path: .ALF_NODE.IDX_ALF_NODE_TXN_TYPE
+Difference: expected column .alf_node_aspects.node_id.type="int8", but was .ALF_NODE_ASPECTS.NODE_ID.type="bigint"
+Difference: expected column .alf_node_aspects.qname_id.type="int8", but was .ALF_NODE_ASPECTS.QNAME_ID.type="bigint"
+Difference: expected primary key .alf_node_aspects.alf_node_aspects_pkey.name="alf_node_aspects_pkey", but was .ALF_NODE_ASPECTS.CONSTRAINT_E.name="CONSTRAINT_E"
+Difference: expected primary key .alf_node_aspects.alf_node_aspects_pkey.columnNames[0]="node_id", but was .ALF_NODE_ASPECTS.CONSTRAINT_E.columnNames[0]="NODE_ID"
+Difference: expected primary key .alf_node_aspects.alf_node_aspects_pkey.columnNames[1]="qname_id", but was .ALF_NODE_ASPECTS.CONSTRAINT_E.columnNames[1]="QNAME_ID"
+Difference: missing foreign key from database, expected at path: .alf_node_aspects.fk_alf_nasp_n
+Difference: missing foreign key from database, expected at path: .alf_node_aspects.fk_alf_nasp_qn
+Difference: unexpected foreign key found in database with path: .ALF_NODE_ASPECTS.FK_ALF_NASP_N
+Difference: unexpected foreign key found in database with path: .ALF_NODE_ASPECTS.FK_ALF_NASP_QN
+Difference: missing index from database, expected at path: .alf_node_aspects.fk_alf_nasp_n
+Difference: missing index from database, expected at path: .alf_node_aspects.fk_alf_nasp_qn
+Difference: unexpected index found in database with path: .ALF_NODE_ASPECTS.PRIMARY_KEY_E
+Difference: unexpected index found in database with path: .ALF_NODE_ASPECTS.FK_ALF_NASP_N
+Difference: unexpected index found in database with path: .ALF_NODE_ASPECTS.FK_ALF_NASP_QN
+Difference: unexpected index found in database with path: .ALF_NODE_ASPECTS.FK_ALF_NASP_QN_INDEX_E
+Difference: expected column .alf_node_assoc.id.type="int8", but was .ALF_NODE_ASSOC.ID.type="bigint"
+Difference: expected column .alf_node_assoc.version.type="int8", but was .ALF_NODE_ASSOC.VERSION.type="bigint"
+Difference: expected column .alf_node_assoc.source_node_id.type="int8", but was .ALF_NODE_ASSOC.SOURCE_NODE_ID.type="bigint"
+Difference: expected column .alf_node_assoc.target_node_id.type="int8", but was .ALF_NODE_ASSOC.TARGET_NODE_ID.type="bigint"
+Difference: expected column .alf_node_assoc.type_qname_id.type="int8", but was .ALF_NODE_ASSOC.TYPE_QNAME_ID.type="bigint"
+Difference: expected column .alf_node_assoc.assoc_index.type="int8", but was .ALF_NODE_ASSOC.ASSOC_INDEX.type="bigint"
+Difference: expected primary key .alf_node_assoc.alf_node_assoc_pkey.columnNames[0]="id", but was .ALF_NODE_ASSOC.CONSTRAINT_32.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_node_assoc.fk_alf_nass_tnode
+Difference: missing foreign key from database, expected at path: .alf_node_assoc.fk_alf_nass_snode
+Difference: missing foreign key from database, expected at path: .alf_node_assoc.fk_alf_nass_tqn
+Difference: unexpected foreign key found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_SNODE
+Difference: unexpected foreign key found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TNODE
+Difference: unexpected foreign key found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TQN
+Difference: missing index from database, expected at path: .alf_node_assoc.source_node_id
+Difference: missing index from database, expected at path: .alf_node_assoc.fk_alf_nass_snode
+Difference: missing index from database, expected at path: .alf_node_assoc.fk_alf_nass_tnode
+Difference: missing index from database, expected at path: .alf_node_assoc.fk_alf_nass_tqn
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.PRIMARY_KEY_32
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.SOURCE_NODE_ID
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_SNODE
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_SNODE_INDEX_3
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TNODE
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TNODE_INDEX_3
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TQN
+Difference: unexpected index found in database with path: .ALF_NODE_ASSOC.FK_ALF_NASS_TQN_INDEX_3
+Difference: expected column .alf_node_properties.node_id.type="int8", but was .ALF_NODE_PROPERTIES.NODE_ID.type="bigint"
+Difference: expected column .alf_node_properties.actual_type_n.type="int4", but was .ALF_NODE_PROPERTIES.ACTUAL_TYPE_N.type="integer"
+Difference: expected column .alf_node_properties.persisted_type_n.type="int4", but was .ALF_NODE_PROPERTIES.PERSISTED_TYPE_N.type="integer"
+Difference: expected column .alf_node_properties.boolean_value.type="bool", but was .ALF_NODE_PROPERTIES.BOOLEAN_VALUE.type="boolean"
+Difference: expected column .alf_node_properties.long_value.type="int8", but was .ALF_NODE_PROPERTIES.LONG_VALUE.type="bigint"
+Difference: expected column .alf_node_properties.float_value.type="float4", but was .ALF_NODE_PROPERTIES.FLOAT_VALUE.type="real"
+Difference: expected column .alf_node_properties.double_value.type="float8", but was .ALF_NODE_PROPERTIES.DOUBLE_VALUE.type="double"
+Difference: expected column .alf_node_properties.serializable_value.type="bytea", but was .ALF_NODE_PROPERTIES.SERIALIZABLE_VALUE.type="varbinary"
+Difference: expected column .alf_node_properties.qname_id.type="int8", but was .ALF_NODE_PROPERTIES.QNAME_ID.type="bigint"
+Difference: expected column .alf_node_properties.list_index.type="int4", but was .ALF_NODE_PROPERTIES.LIST_INDEX.type="integer"
+Difference: expected column .alf_node_properties.locale_id.type="int8", but was .ALF_NODE_PROPERTIES.LOCALE_ID.type="bigint"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.name="alf_node_properties_pkey", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.name="CONSTRAINT_FF"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnNames[0]="node_id", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnNames[0]="LIST_INDEX"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnNames[1]="qname_id", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnNames[1]="LOCALE_ID"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnNames[2]="list_index", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnNames[2]="NODE_ID"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnNames[3]="locale_id", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnNames[3]="QNAME_ID"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnOrders[0]="1", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnOrders[0]="3"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnOrders[1]="2", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnOrders[1]="4"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnOrders[2]="3", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnOrders[2]="1"
+Difference: expected primary key .alf_node_properties.alf_node_properties_pkey.columnOrders[3]="4", but was .ALF_NODE_PROPERTIES.CONSTRAINT_FF.columnOrders[3]="2"
+Difference: missing foreign key from database, expected at path: .alf_node_properties.fk_alf_nprop_loc
+Difference: missing foreign key from database, expected at path: .alf_node_properties.fk_alf_nprop_n
+Difference: missing foreign key from database, expected at path: .alf_node_properties.fk_alf_nprop_qn
+Difference: unexpected foreign key found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_LOC
+Difference: unexpected foreign key found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_N
+Difference: unexpected foreign key found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_QN
+Difference: missing index from database, expected at path: .alf_node_properties.fk_alf_nprop_loc
+Difference: missing index from database, expected at path: .alf_node_properties.fk_alf_nprop_n
+Difference: missing index from database, expected at path: .alf_node_properties.fk_alf_nprop_qn
+Difference: missing index from database, expected at path: .alf_node_properties.idx_alf_nprop_s
+Difference: missing index from database, expected at path: .alf_node_properties.idx_alf_nprop_l
+Difference: missing index from database, expected at path: .alf_node_properties.idx_alf_nprop_b
+Difference: missing index from database, expected at path: .alf_node_properties.idx_alf_nprop_d
+Difference: missing index from database, expected at path: .alf_node_properties.idx_alf_nprop_f
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.PRIMARY_KEY_FF
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_LOC
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_LOC_INDEX_F
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_N
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_QN
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.FK_ALF_NPROP_QN_INDEX_F
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.IDX_ALF_NPROP_B
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.IDX_ALF_NPROP_D
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.IDX_ALF_NPROP_F
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.IDX_ALF_NPROP_L
+Difference: unexpected index found in database with path: .ALF_NODE_PROPERTIES.IDX_ALF_NPROP_S
+Difference: expected column .alf_permission.id.type="int8", but was .ALF_PERMISSION.ID.type="bigint"
+Difference: expected column .alf_permission.version.type="int8", but was .ALF_PERMISSION.VERSION.type="bigint"
+Difference: expected column .alf_permission.type_qname_id.type="int8", but was .ALF_PERMISSION.TYPE_QNAME_ID.type="bigint"
+Difference: expected primary key .alf_permission.alf_permission_pkey.name="alf_permission_pkey", but was .ALF_PERMISSION.CONSTRAINT_8.name="CONSTRAINT_8"
+Difference: expected primary key .alf_permission.alf_permission_pkey.columnNames[0]="id", but was .ALF_PERMISSION.CONSTRAINT_8.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_permission.fk_alf_perm_tqn
+Difference: unexpected foreign key found in database with path: .ALF_PERMISSION.FK_ALF_PERM_TQN
+Difference: missing index from database, expected at path: .alf_permission.type_qname_id
+Difference: missing index from database, expected at path: .alf_permission.fk_alf_perm_tqn
+Difference: unexpected index found in database with path: .ALF_PERMISSION.PRIMARY_KEY_8
+Difference: unexpected index found in database with path: .ALF_PERMISSION.TYPE_QNAME_ID
+Difference: unexpected index found in database with path: .ALF_PERMISSION.FK_ALF_PERM_TQN
+Difference: unexpected index found in database with path: .ALF_PERMISSION.FK_ALF_PERM_TQN_INDEX_8
+Difference: expected column .alf_prop_class.id.type="int8", but was .ALF_PROP_CLASS.ID.type="bigint"
+Difference: expected column .alf_prop_class.java_class_name_crc.type="int8", but was .ALF_PROP_CLASS.JAVA_CLASS_NAME_CRC.type="bigint"
+Difference: expected primary key .alf_prop_class.alf_prop_class_pkey.name="alf_prop_class_pkey", but was .ALF_PROP_CLASS.CONSTRAINT_94.name="CONSTRAINT_94"
+Difference: expected primary key .alf_prop_class.alf_prop_class_pkey.columnNames[0]="id", but was .ALF_PROP_CLASS.CONSTRAINT_94.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_prop_class.idx_alf_propc_crc
+Difference: missing index from database, expected at path: .alf_prop_class.idx_alf_propc_clas
+Difference: unexpected index found in database with path: .ALF_PROP_CLASS.IDX_ALF_PROPC_CRC
+Difference: unexpected index found in database with path: .ALF_PROP_CLASS.PRIMARY_KEY_94
+Difference: unexpected index found in database with path: .ALF_PROP_CLASS.IDX_ALF_PROPC_CLAS
+Difference: expected column .alf_prop_date_value.date_value.type="int8", but was .ALF_PROP_DATE_VALUE.DATE_VALUE.type="bigint"
+Difference: expected column .alf_prop_date_value.full_year.type="int4", but was .ALF_PROP_DATE_VALUE.FULL_YEAR.type="integer"
+Difference: expected column .alf_prop_date_value.half_of_year.type="int2", but was .ALF_PROP_DATE_VALUE.HALF_OF_YEAR.type="smallint"
+Difference: expected column .alf_prop_date_value.quarter_of_year.type="int2", but was .ALF_PROP_DATE_VALUE.QUARTER_OF_YEAR.type="smallint"
+Difference: expected column .alf_prop_date_value.month_of_year.type="int2", but was .ALF_PROP_DATE_VALUE.MONTH_OF_YEAR.type="smallint"
+Difference: expected column .alf_prop_date_value.week_of_year.type="int2", but was .ALF_PROP_DATE_VALUE.WEEK_OF_YEAR.type="smallint"
+Difference: expected column .alf_prop_date_value.week_of_month.type="int2", but was .ALF_PROP_DATE_VALUE.WEEK_OF_MONTH.type="smallint"
+Difference: expected column .alf_prop_date_value.day_of_year.type="int4", but was .ALF_PROP_DATE_VALUE.DAY_OF_YEAR.type="integer"
+Difference: expected column .alf_prop_date_value.day_of_month.type="int2", but was .ALF_PROP_DATE_VALUE.DAY_OF_MONTH.type="smallint"
+Difference: expected column .alf_prop_date_value.day_of_week.type="int2", but was .ALF_PROP_DATE_VALUE.DAY_OF_WEEK.type="smallint"
+Difference: expected primary key .alf_prop_date_value.alf_prop_date_value_pkey.name="alf_prop_date_value_pkey", but was .ALF_PROP_DATE_VALUE.CONSTRAINT_8F.name="CONSTRAINT_8F"
+Difference: expected primary key .alf_prop_date_value.alf_prop_date_value_pkey.columnNames[0]="date_value", but was .ALF_PROP_DATE_VALUE.CONSTRAINT_8F.columnNames[0]="DATE_VALUE"
+Difference: missing index from database, expected at path: .alf_prop_date_value.idx_alf_propdt_dt
+Difference: unexpected index found in database with path: .ALF_PROP_DATE_VALUE.PRIMARY_KEY_8F
+Difference: unexpected index found in database with path: .ALF_PROP_DATE_VALUE.IDX_ALF_PROPDT_DT
+Difference: expected column .alf_prop_double_value.id.type="int8", but was .ALF_PROP_DOUBLE_VALUE.ID.type="bigint"
+Difference: expected column .alf_prop_double_value.double_value.type="float8", but was .ALF_PROP_DOUBLE_VALUE.DOUBLE_VALUE.type="double"
+Difference: expected primary key .alf_prop_double_value.alf_prop_double_value_pkey.name="alf_prop_double_value_pkey", but was .ALF_PROP_DOUBLE_VALUE.CONSTRAINT_81.name="CONSTRAINT_81"
+Difference: expected primary key .alf_prop_double_value.alf_prop_double_value_pkey.columnNames[0]="id", but was .ALF_PROP_DOUBLE_VALUE.CONSTRAINT_81.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_prop_double_value.idx_alf_propd_val
+Difference: unexpected index found in database with path: .ALF_PROP_DOUBLE_VALUE.IDX_ALF_PROPD_VAL
+Difference: unexpected index found in database with path: .ALF_PROP_DOUBLE_VALUE.PRIMARY_KEY_81
+Difference: expected column .alf_prop_link.root_prop_id.type="int8", but was .ALF_PROP_LINK.ROOT_PROP_ID.type="bigint"
+Difference: expected column .alf_prop_link.prop_index.type="int8", but was .ALF_PROP_LINK.PROP_INDEX.type="bigint"
+Difference: expected column .alf_prop_link.contained_in.type="int8", but was .ALF_PROP_LINK.CONTAINED_IN.type="bigint"
+Difference: expected column .alf_prop_link.key_prop_id.type="int8", but was .ALF_PROP_LINK.KEY_PROP_ID.type="bigint"
+Difference: expected column .alf_prop_link.value_prop_id.type="int8", but was .ALF_PROP_LINK.VALUE_PROP_ID.type="bigint"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.name="alf_prop_link_pkey", but was .ALF_PROP_LINK.CONSTRAINT_B2.name="CONSTRAINT_B2"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnNames[0]="root_prop_id", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnNames[0]="CONTAINED_IN"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnNames[1]="contained_in", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnNames[1]="PROP_INDEX"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnNames[2]="prop_index", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnNames[2]="ROOT_PROP_ID"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnOrders[0]="1", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnOrders[0]="2"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnOrders[1]="2", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnOrders[1]="3"
+Difference: expected primary key .alf_prop_link.alf_prop_link_pkey.columnOrders[2]="3", but was .ALF_PROP_LINK.CONSTRAINT_B2.columnOrders[2]="1"
+Difference: missing foreign key from database, expected at path: .alf_prop_link.fk_alf_propln_root
+Difference: missing foreign key from database, expected at path: .alf_prop_link.fk_alf_propln_val
+Difference: missing foreign key from database, expected at path: .alf_prop_link.fk_alf_propln_key
+Difference: unexpected foreign key found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_ROOT
+Difference: unexpected foreign key found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_KEY
+Difference: unexpected foreign key found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_VAL
+Difference: missing index from database, expected at path: .alf_prop_link.fk_alf_propln_key
+Difference: missing index from database, expected at path: .alf_prop_link.fk_alf_propln_val
+Difference: missing index from database, expected at path: .alf_prop_link.idx_alf_propln_for
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.PRIMARY_KEY_B2
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_KEY
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_KEY_INDEX_B
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_ROOT_INDEX_B
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_VAL
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.FK_ALF_PROPLN_VAL_INDEX_B
+Difference: unexpected index found in database with path: .ALF_PROP_LINK.IDX_ALF_PROPLN_FOR
+Difference: expected column .alf_prop_root.id.type="int8", but was .ALF_PROP_ROOT.ID.type="bigint"
+Difference: expected column .alf_prop_root.version.type="int4", but was .ALF_PROP_ROOT.VERSION.type="integer"
+Difference: expected primary key .alf_prop_root.alf_prop_root_pkey.name="alf_prop_root_pkey", but was .ALF_PROP_ROOT.CONSTRAINT_B.name="CONSTRAINT_B"
+Difference: expected primary key .alf_prop_root.alf_prop_root_pkey.columnNames[0]="id", but was .ALF_PROP_ROOT.CONSTRAINT_B.columnNames[0]="ID"
+Difference: unexpected index found in database with path: .ALF_PROP_ROOT.PRIMARY_KEY_B
+Difference: expected column .alf_prop_serializable_value.id.type="int8", but was .ALF_PROP_SERIALIZABLE_VALUE.ID.type="bigint"
+Difference: expected column .alf_prop_serializable_value.serializable_value.type="bytea", but was .ALF_PROP_SERIALIZABLE_VALUE.SERIALIZABLE_VALUE.type="varbinary"
+Difference: expected primary key .alf_prop_serializable_value.alf_prop_serializable_value_pkey.name="alf_prop_serializable_value_pkey", but was .ALF_PROP_SERIALIZABLE_VALUE.CONSTRAINT_AE.name="CONSTRAINT_AE"
+Difference: expected primary key .alf_prop_serializable_value.alf_prop_serializable_value_pkey.columnNames[0]="id", but was .ALF_PROP_SERIALIZABLE_VALUE.CONSTRAINT_AE.columnNames[0]="ID"
+Difference: unexpected index found in database with path: .ALF_PROP_SERIALIZABLE_VALUE.PRIMARY_KEY_AE
+Difference: expected column .alf_prop_string_value.id.type="int8", but was .ALF_PROP_STRING_VALUE.ID.type="bigint"
+Difference: expected column .alf_prop_string_value.string_crc.type="int8", but was .ALF_PROP_STRING_VALUE.STRING_CRC.type="bigint"
+Difference: expected primary key .alf_prop_string_value.alf_prop_string_value_pkey.name="alf_prop_string_value_pkey", but was .ALF_PROP_STRING_VALUE.CONSTRAINT_4.name="CONSTRAINT_4"
+Difference: expected primary key .alf_prop_string_value.alf_prop_string_value_pkey.columnNames[0]="id", but was .ALF_PROP_STRING_VALUE.CONSTRAINT_4.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_prop_string_value.idx_alf_props_crc
+Difference: missing index from database, expected at path: .alf_prop_string_value.idx_alf_props_str
+Difference: unexpected index found in database with path: .ALF_PROP_STRING_VALUE.IDX_ALF_PROPS_CRC
+Difference: unexpected index found in database with path: .ALF_PROP_STRING_VALUE.PRIMARY_KEY_4
+Difference: unexpected index found in database with path: .ALF_PROP_STRING_VALUE.IDX_ALF_PROPS_STR
+Difference: expected column .alf_prop_unique_ctx.id.type="int8", but was .ALF_PROP_UNIQUE_CTX.ID.type="bigint"
+Difference: expected column .alf_prop_unique_ctx.version.type="int4", but was .ALF_PROP_UNIQUE_CTX.VERSION.type="integer"
+Difference: expected column .alf_prop_unique_ctx.value1_prop_id.type="int8", but was .ALF_PROP_UNIQUE_CTX.VALUE1_PROP_ID.type="bigint"
+Difference: expected column .alf_prop_unique_ctx.value2_prop_id.type="int8", but was .ALF_PROP_UNIQUE_CTX.VALUE2_PROP_ID.type="bigint"
+Difference: expected column .alf_prop_unique_ctx.value3_prop_id.type="int8", but was .ALF_PROP_UNIQUE_CTX.VALUE3_PROP_ID.type="bigint"
+Difference: expected column .alf_prop_unique_ctx.prop1_id.type="int8", but was .ALF_PROP_UNIQUE_CTX.PROP1_ID.type="bigint"
+Difference: expected primary key .alf_prop_unique_ctx.alf_prop_unique_ctx_pkey.name="alf_prop_unique_ctx_pkey", but was .ALF_PROP_UNIQUE_CTX.CONSTRAINT_41.name="CONSTRAINT_41"
+Difference: expected primary key .alf_prop_unique_ctx.alf_prop_unique_ctx_pkey.columnNames[0]="id", but was .ALF_PROP_UNIQUE_CTX.CONSTRAINT_41.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_p1
+Difference: missing foreign key from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_v3
+Difference: missing foreign key from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_v2
+Difference: missing foreign key from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_v1
+Difference: unexpected foreign key found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_P1
+Difference: unexpected foreign key found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V1
+Difference: unexpected foreign key found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V2
+Difference: unexpected foreign key found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V3
+Difference: missing index from database, expected at path: .alf_prop_unique_ctx.idx_alf_propuctx
+Difference: missing index from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_p1
+Difference: missing index from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_v2
+Difference: missing index from database, expected at path: .alf_prop_unique_ctx.fk_alf_propuctx_v3
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.IDX_ALF_PROPUCTX
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.PRIMARY_KEY_41
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_P1
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_P1_INDEX_4
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V1_INDEX_4
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V2
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V2_INDEX_4
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V3
+Difference: unexpected index found in database with path: .ALF_PROP_UNIQUE_CTX.FK_ALF_PROPUCTX_V3_INDEX_4
+Difference: expected column .alf_prop_value.id.type="int8", but was .ALF_PROP_VALUE.ID.type="bigint"
+Difference: expected column .alf_prop_value.actual_type_id.type="int8", but was .ALF_PROP_VALUE.ACTUAL_TYPE_ID.type="bigint"
+Difference: expected column .alf_prop_value.persisted_type.type="int2", but was .ALF_PROP_VALUE.PERSISTED_TYPE.type="smallint"
+Difference: expected column .alf_prop_value.long_value.type="int8", but was .ALF_PROP_VALUE.LONG_VALUE.type="bigint"
+Difference: expected primary key .alf_prop_value.alf_prop_value_pkey.name="alf_prop_value_pkey", but was .ALF_PROP_VALUE.CONSTRAINT_95E.name="CONSTRAINT_95E"
+Difference: expected primary key .alf_prop_value.alf_prop_value_pkey.columnNames[0]="id", but was .ALF_PROP_VALUE.CONSTRAINT_95E.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_prop_value.idx_alf_propv_act
+Difference: missing index from database, expected at path: .alf_prop_value.idx_alf_propv_per
+Difference: unexpected index found in database with path: .ALF_PROP_VALUE.IDX_ALF_PROPV_ACT
+Difference: unexpected index found in database with path: .ALF_PROP_VALUE.PRIMARY_KEY_95E
+Difference: unexpected index found in database with path: .ALF_PROP_VALUE.IDX_ALF_PROPV_PER
+Difference: expected column .alf_qname.id.type="int8", but was .ALF_QNAME.ID.type="bigint"
+Difference: expected column .alf_qname.version.type="int8", but was .ALF_QNAME.VERSION.type="bigint"
+Difference: expected column .alf_qname.ns_id.type="int8", but was .ALF_QNAME.NS_ID.type="bigint"
+Difference: expected primary key .alf_qname.alf_qname_pkey.name="alf_qname_pkey", but was .ALF_QNAME.CONSTRAINT_99.name="CONSTRAINT_99"
+Difference: expected primary key .alf_qname.alf_qname_pkey.columnNames[0]="id", but was .ALF_QNAME.CONSTRAINT_99.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_qname.fk_alf_qname_ns
+Difference: unexpected foreign key found in database with path: .ALF_QNAME.FK_ALF_QNAME_NS
+Difference: missing index from database, expected at path: .alf_qname.ns_id
+Difference: unexpected index found in database with path: .ALF_QNAME.NS_ID
+Difference: unexpected index found in database with path: .ALF_QNAME.PRIMARY_KEY_99
+Difference: unexpected index found in database with path: .ALF_QNAME.FK_ALF_QNAME_NS_INDEX_9
+Difference: expected column .alf_server.id.type="int8", but was .ALF_SERVER.ID.type="bigint"
+Difference: expected column .alf_server.version.type="int8", but was .ALF_SERVER.VERSION.type="bigint"
+Difference: expected primary key .alf_server.alf_server_pkey.name="alf_server_pkey", but was .ALF_SERVER.CONSTRAINT_A.name="CONSTRAINT_A"
+Difference: expected primary key .alf_server.alf_server_pkey.columnNames[0]="id", but was .ALF_SERVER.CONSTRAINT_A.columnNames[0]="ID"
+Difference: missing index from database, expected at path: .alf_server.ip_address
+Difference: unexpected index found in database with path: .ALF_SERVER.IP_ADDRESS
+Difference: unexpected index found in database with path: .ALF_SERVER.PRIMARY_KEY_A
+Difference: expected column .alf_store.id.type="int8", but was .ALF_STORE.ID.type="bigint"
+Difference: expected column .alf_store.version.type="int8", but was .ALF_STORE.VERSION.type="bigint"
+Difference: expected column .alf_store.root_node_id.type="int8", but was .ALF_STORE.ROOT_NODE_ID.type="bigint"
+Difference: expected primary key .alf_store.alf_store_pkey.name="alf_store_pkey", but was .ALF_STORE.CONSTRAINT_9A0.name="CONSTRAINT_9A0"
+Difference: expected primary key .alf_store.alf_store_pkey.columnNames[0]="id", but was .ALF_STORE.CONSTRAINT_9A0.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_store.fk_alf_store_root
+Difference: unexpected foreign key found in database with path: .ALF_STORE.FK_ALF_STORE_ROOT
+Difference: missing index from database, expected at path: .alf_store.protocol
+Difference: missing index from database, expected at path: .alf_store.fk_alf_store_root
+Difference: unexpected index found in database with path: .ALF_STORE.PRIMARY_KEY_9A0
+Difference: unexpected index found in database with path: .ALF_STORE.PROTOCOL
+Difference: unexpected index found in database with path: .ALF_STORE.FK_ALF_STORE_ROOT
+Difference: expected column .alf_subscriptions.user_node_id.type="int8", but was .ALF_SUBSCRIPTIONS.USER_NODE_ID.type="bigint"
+Difference: expected column .alf_subscriptions.node_id.type="int8", but was .ALF_SUBSCRIPTIONS.NODE_ID.type="bigint"
+Difference: expected primary key .alf_subscriptions.alf_subscriptions_pkey.name="alf_subscriptions_pkey", but was .ALF_SUBSCRIPTIONS.CONSTRAINT_5E.name="CONSTRAINT_5E"
+Difference: expected primary key .alf_subscriptions.alf_subscriptions_pkey.columnNames[0]="user_node_id", but was .ALF_SUBSCRIPTIONS.CONSTRAINT_5E.columnNames[0]="NODE_ID"
+Difference: expected primary key .alf_subscriptions.alf_subscriptions_pkey.columnNames[1]="node_id", but was .ALF_SUBSCRIPTIONS.CONSTRAINT_5E.columnNames[1]="USER_NODE_ID"
+Difference: expected primary key .alf_subscriptions.alf_subscriptions_pkey.columnOrders[0]="1", but was .ALF_SUBSCRIPTIONS.CONSTRAINT_5E.columnOrders[0]="2"
+Difference: expected primary key .alf_subscriptions.alf_subscriptions_pkey.columnOrders[1]="2", but was .ALF_SUBSCRIPTIONS.CONSTRAINT_5E.columnOrders[1]="1"
+Difference: missing foreign key from database, expected at path: .alf_subscriptions.fk_alf_sub_node
+Difference: missing foreign key from database, expected at path: .alf_subscriptions.fk_alf_sub_user
+Difference: unexpected foreign key found in database with path: .ALF_SUBSCRIPTIONS.FK_ALF_SUB_NODE
+Difference: unexpected foreign key found in database with path: .ALF_SUBSCRIPTIONS.FK_ALF_SUB_USER
+Difference: missing index from database, expected at path: .alf_subscriptions.fk_alf_sub_node
+Difference: unexpected index found in database with path: .ALF_SUBSCRIPTIONS.PRIMARY_KEY_5E
+Difference: unexpected index found in database with path: .ALF_SUBSCRIPTIONS.FK_ALF_SUB_NODE
+Difference: unexpected index found in database with path: .ALF_SUBSCRIPTIONS.FK_ALF_SUB_NODE_INDEX_5
+Difference: expected column .alf_tenant.version.type="int8", but was .ALF_TENANT.VERSION.type="bigint"
+Difference: expected column .alf_tenant.enabled.type="bool", but was .ALF_TENANT.ENABLED.type="boolean"
+Difference: expected primary key .alf_tenant.alf_tenant_pkey.name="alf_tenant_pkey", but was .ALF_TENANT.CONSTRAINT_A7.name="CONSTRAINT_A7"
+Difference: expected primary key .alf_tenant.alf_tenant_pkey.columnNames[0]="tenant_domain", but was .ALF_TENANT.CONSTRAINT_A7.columnNames[0]="TENANT_DOMAIN"
+Difference: unexpected index found in database with path: .ALF_TENANT.PRIMARY_KEY_A7
+Difference: expected column .alf_transaction.id.type="int8", but was .ALF_TRANSACTION.ID.type="bigint"
+Difference: expected column .alf_transaction.version.type="int8", but was .ALF_TRANSACTION.VERSION.type="bigint"
+Difference: expected column .alf_transaction.server_id.type="int8", but was .ALF_TRANSACTION.SERVER_ID.type="bigint"
+Difference: expected column .alf_transaction.commit_time_ms.type="int8", but was .ALF_TRANSACTION.COMMIT_TIME_MS.type="bigint"
+Difference: expected primary key .alf_transaction.alf_transaction_pkey.name="alf_transaction_pkey", but was .ALF_TRANSACTION.CONSTRAINT_F.name="CONSTRAINT_F"
+Difference: expected primary key .alf_transaction.alf_transaction_pkey.columnNames[0]="id", but was .ALF_TRANSACTION.CONSTRAINT_F.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_transaction.fk_alf_txn_svr
+Difference: unexpected foreign key found in database with path: .ALF_TRANSACTION.FK_ALF_TXN_SVR
+Difference: missing index from database, expected at path: .alf_transaction.fk_alf_txn_svr
+Difference: missing index from database, expected at path: .alf_transaction.idx_alf_txn_ctms
+Difference: unexpected index found in database with path: .ALF_TRANSACTION.PRIMARY_KEY_F
+Difference: unexpected index found in database with path: .ALF_TRANSACTION.FK_ALF_TXN_SVR
+Difference: unexpected index found in database with path: .ALF_TRANSACTION.FK_ALF_TXN_SVR_INDEX_F
+Difference: unexpected index found in database with path: .ALF_TRANSACTION.IDX_ALF_TXN_CTMS
+Difference: expected column .alf_usage_delta.id.type="int8", but was .ALF_USAGE_DELTA.ID.type="bigint"
+Difference: expected column .alf_usage_delta.version.type="int8", but was .ALF_USAGE_DELTA.VERSION.type="bigint"
+Difference: expected column .alf_usage_delta.node_id.type="int8", but was .ALF_USAGE_DELTA.NODE_ID.type="bigint"
+Difference: expected column .alf_usage_delta.delta_size.type="int8", but was .ALF_USAGE_DELTA.DELTA_SIZE.type="bigint"
+Difference: expected primary key .alf_usage_delta.alf_usage_delta_pkey.name="alf_usage_delta_pkey", but was .ALF_USAGE_DELTA.CONSTRAINT_F1.name="CONSTRAINT_F1"
+Difference: expected primary key .alf_usage_delta.alf_usage_delta_pkey.columnNames[0]="id", but was .ALF_USAGE_DELTA.CONSTRAINT_F1.columnNames[0]="ID"
+Difference: missing foreign key from database, expected at path: .alf_usage_delta.fk_alf_usaged_n
+Difference: unexpected foreign key found in database with path: .ALF_USAGE_DELTA.FK_ALF_USAGED_N
+Difference: missing index from database, expected at path: .alf_usage_delta.fk_alf_usaged_n
+Difference: unexpected index found in database with path: .ALF_USAGE_DELTA.PRIMARY_KEY_F1
+Difference: unexpected index found in database with path: .ALF_USAGE_DELTA.FK_ALF_USAGED_N
+Difference: unexpected index found in database with path: .ALF_USAGE_DELTA.FK_ALF_USAGED_N_INDEX_F

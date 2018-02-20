@@ -1,0 +1,4 @@
+add|/WEB-INF/lib/alfresco-share-services-5.1.e.jar
+add|/WEB-INF/classes/alfresco/module/alfresco-share-services/module-bootstrap-context.xml
+add|/WEB-INF/classes/alfresco/module/alfresco-share-services/module-context.xml
+add|/WEB-INF/classes/alfresco/module/alfresco-share-services/alfresco-global.properties

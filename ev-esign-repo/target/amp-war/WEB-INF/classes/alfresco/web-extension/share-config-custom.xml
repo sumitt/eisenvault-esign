@@ -1,0 +1,116 @@
+<alfresco-config>
+
+	<!-- Share config elements for the doclib actions, coming soon! -->
+	<config evaluator="string-compare" condition="DocLibActions">
+		<actions>
+		
+			<action id="mycompany.doclib.action.addimagestopdffiles"
+              icon="addimage"
+              type="javascript"
+              label="actions.addimages.menulabel">
+			 <param name="function">onActionAddImagesToPdfFiles</param>
+			 <param name="successMessage">message.addimages.success</param>
+			 <param name="failureMessage">message.addimages.failure</param>
+		 </action>
+			
+		</actions>
+		
+		<actionGroups>
+			<actionGroup id="document-browse">
+				<action index="502" id="mycompany.doclib.action.addimagestopdffiles"/>
+			</actionGroup>
+			<actionGroup id="document-details">
+				<action index="502" id="mycompany.doclib.action.addimagestopdffiles"/>
+			</actionGroup>
+		</actionGroups>
+	</config>
+	
+	<!-- forms for each of the actions, these may not be needed as the default form is pretty good -->
+	<!--
+	<config evaluator="string-compare" condition="pdf-append">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    
+	<config evaluator="string-compare" condition="pdf-encryption">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+
+	<config evaluator="string-compare" condition="pdf-insert-at-page">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    
+	<config evaluator="string-compare" condition="pdf-split">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    
+	<config evaluator="string-compare" condition="pdf-split-at-page">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    
+	<config evaluator="string-compare" condition="pdf-signature">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    
+	<config evaluator="string-compare" condition="pdf-watermark">
+    	<forms>
+        	<form>
+            	<field-visibility>
+                </field-visibility>
+                <appearance>
+                </appearance>
+            </form>
+        </forms>
+    </config>
+    -->
+	<config evaluator="string-compare" condition="DocLibCustom">
+		<dependencies>
+		    <css src="css/jquery-ui-1.10.3.custom.min.css" />
+			<js src="js/jquery-1.9.1.js" />
+			<js src="js/jquery-ui-1.10.3.custom.js" />
+			<js src="addimages/components/doclib/addimages-doclib-actions.js" />
+		</dependencies>
+	</config>
+	
+</alfresco-config>
