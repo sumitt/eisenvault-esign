@@ -1,7 +1,0 @@
-<webscript>
-  <shortname>picture view service</shortname>
-  <description>picture view service</description>
-  <url>/picture</url>
-  <authentication>user</authentication>
-  <format default="">argument</format>
-</webscript>

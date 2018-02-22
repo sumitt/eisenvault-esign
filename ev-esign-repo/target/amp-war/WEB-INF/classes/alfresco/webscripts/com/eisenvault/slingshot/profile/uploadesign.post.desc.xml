@@ -1,9 +1,0 @@
-<webscript>
-  <shortname>ESign Upload</shortname>
-  <description>Upload esign file content and apply to person preferencesESign</description>
-  <format default="json" />
-  <authentication>user</authentication>
-  <transaction>required</transaction>
-  <url>/slingshot/profile/uploadesign</url>
-  <lifecycle>internal</lifecycle>
-</webscript>

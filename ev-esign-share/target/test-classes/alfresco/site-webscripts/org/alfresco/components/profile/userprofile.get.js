@@ -44,6 +44,7 @@ function main()
       var result = connector.post("/api/subscriptions/" + encodeURIComponent(user.name) + "/follows",
                                   jsonUtils.toJSONString(params),
                                   "application/json");
+      
       if (result.status == 200)
       {
          model.follows = JSON.parse(result)[0][page.url.templateArgs["userid"]];

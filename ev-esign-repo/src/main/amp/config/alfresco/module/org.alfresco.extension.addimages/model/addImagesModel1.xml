@@ -26,11 +26,11 @@
             <properties>
                 <property name="esign:xPosition">
                 	<title>Sign X Position</title>
-                    <type>d:int</type>
+                    <type>d:float</type>
                 </property>
                 <property name="esign:yPosition">
                 	<title>Sign Y Position</title>
-                    <type>d:int</type>
+                    <type>d:float</type>
                 </property>
             </properties>
         </aspect>

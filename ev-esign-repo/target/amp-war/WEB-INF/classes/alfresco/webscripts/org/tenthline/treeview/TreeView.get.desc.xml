@@ -1,7 +1,0 @@
-<webscript>
-  <shortname>Tree view service</shortname>
-  <description>Tree view service</description>
-  <url>/treeview</url>
-  <authentication>user</authentication>
-  <format default="">argument</format>
-</webscript>

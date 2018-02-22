@@ -84,9 +84,9 @@ public HandleFile() {}
     	  int insertAt;
         
         //int x = Integer.valueOf(req.getParameter("cordinate_x")).intValue();
-        int x = 10;
+        float x = 10.0F;
         //int y = Integer.valueOf(req.getParameter("cordinate_y")).intValue();
-        Integer y = new Integer(0);
+        Float y = new Float(0.0F);
         NodeRef noderefSource = new NodeRef(req.getParameter("sourcenodeRef"));
         String currentUserName = authenticationService.getCurrentUserName();
         NodeRef personRef = personService.getPerson(currentUserName);
@@ -102,7 +102,6 @@ public HandleFile() {}
         	}
         }
         //NodeRef noderef = new NodeRef(req.getParameter("nodeRef"));
-        //NodeRef noderef = personChildAssos.get(1).getChildRef();
         ContentReader ctnodeRef = service.getFileFolderService().getReader(esignImageNodeRef);
         ContentReader ctnodeRefSource = service.getFileFolderService().getReader(noderefSource);
         is = ctnodeRefSource.getContentInputStream();
@@ -142,12 +141,11 @@ public HandleFile() {}
         PdfStamper pdfStamper = new PdfStamper(pdfReader, new FileOutputStream(tempFile));
         TextMarginFinder finder = new TextMarginFinder();
         PdfContentByte content;
-        y = (Integer)nodeService.getProperty(noderefSource, POSITION_Y);
+        y = (Float)nodeService.getProperty(noderefSource, POSITION_Y);
         if(y == null || y<=10){
         	pdfStamper.insertPage(pdfReader.getNumberOfPages() + 1, pdfReader.getPageSize(1));
-        	System.out.println("Page Size is Height: "+pdfReader.getPageSize(1).getHeight());
-        	System.out.println("Page Size is Top: "+pdfReader.getPageSize(1).getTop());
-        	y = 800;
+        	System.out.println("Page Size Top is: "+pdfReader.getPageSize(1).getTop());
+        	y = pdfReader.getPageSize(1).getTop()-65;
         	if(!nodeService.hasAspect(noderefSource, ASPECT_SIGN_POSITION))
         		nodeService.addAspect(noderefSource, ASPECT_SIGN_POSITION, null);
         }
@@ -157,6 +155,8 @@ public HandleFile() {}
         //image.scalePercent(5.0F);
         image.scaleAbsolute(125.0F, 60.0F);
         //image.scaleAbsolute(325.0F, 360.0F);
+        System.out.println("My X value is: "+x);
+        System.out.println("My Y value is: "+y);
         image.setAbsolutePosition(x, y);
         String firstName = nodeService.getProperty(personRef, ContentModel.PROP_FIRSTNAME).toString();
         String lastName = nodeService.getProperty(personRef, ContentModel.PROP_LASTNAME).toString();

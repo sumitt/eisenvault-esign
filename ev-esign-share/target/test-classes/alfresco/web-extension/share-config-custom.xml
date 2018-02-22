@@ -11,6 +11,10 @@
 			 <param name="function">onActionAddImagesToPdfFiles</param>
 			 <param name="successMessage">message.addimages.success</param>
 			 <param name="failureMessage">message.addimages.failure</param>
+			 <permissions>
+			       <permission allow="true">Write</permission>
+			</permissions>
+			<evaluator>evaluator.esign.doclib.action.addESignMimetype</evaluator>
 		 </action>
 			
 		</actions>

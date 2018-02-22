@@ -1,5 +1,0 @@
-<Context path="/share" reloadable="false" backgroundProcessorDelay="-1">
-  <Resources className="org.apache.naming.resources.VirtualDirContext" extraResourcePaths="/=/home/ev-developer/workspace-main/ev-esign/ev-esign-share/target/amp/web,/home/ev-developer/workspace-main/ev-esign/ev-esign-share/target/amp-war"/>
-  <Loader searchVirtualFirst="true" className="org.apache.catalina.loader.VirtualWebappLoader" virtualClasspath="/home/ev-developer/workspace-main/ev-esign/ev-esign-share/target/classes;/home/ev-developer/workspace-main/ev-esign/ev-esign-share/target/amp/config;/home/ev-developer/workspace-main/ev-esign/ev-esign-share/target/test-classes"/>
-  <JarScanner scanAllDirectories="true"/>
-</Context>

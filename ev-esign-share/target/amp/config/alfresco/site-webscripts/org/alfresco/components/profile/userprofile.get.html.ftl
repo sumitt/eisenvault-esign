@@ -55,7 +55,7 @@
                </div>
 	       <div class="photorow">
 		     <div class="photo">
-             		<img class="signImg" src="${url.server}/alfresco/s/slingshot/profile/esign/${profile.name}/thumbnail/" alt="" />
+             		<img class="signImg" src="${url.context}/proxy/alfresco/slingshot/profile/esign/${profile.name}" alt="" />
                      </div>
                      <div class="namelabel">Signature</div>
 	       </div>
@@ -212,7 +212,7 @@
             <div class="header-bar">${msg("label.sign")}</div>
             <div class="photorow">
                <div class="photo">
-                  <img class="signImg" src="${url.server}/alfresco/s/slingshot/profile/esign/${profile.name}/thumbnail/" alt="" />
+                  <img class="signImg" src="${url.context}/proxy/alfresco/slingshot/profile/esign/${profile.name}" alt="" />
                </div>
                <div class="photobtn">
 		    <#if uploadable>
@@ -220,6 +220,9 @@
 		             <span class="first-child"><button>${msg("button.upload")}</button></span>
 		          </span>
 		    </#if>
+		    <span class="yui-button yui-push-button" id="${el}-button-clear-esign">
+                    	 <span class="first-child"><button>${msg("button.remove")}</button></span>
+                    </span>
                     <div style="width=31%" class="phototxt">${msg("label.esignimagesize")}</div>
                </div>
             </div>

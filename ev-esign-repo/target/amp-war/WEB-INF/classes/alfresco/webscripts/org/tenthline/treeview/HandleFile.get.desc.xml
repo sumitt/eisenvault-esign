@@ -1,7 +1,0 @@
-<webscript>
-  <shortname>handlefile view service</shortname>
-  <description>handlefile view service</description>
-  <url>/handlefile</url>
-  <authentication>user</authentication>
-  <format default="">argument</format>
-</webscript>

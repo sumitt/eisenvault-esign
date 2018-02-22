@@ -28,7 +28,7 @@
         Override this bean and disable javascript compilation so that webscripts can be hot reloaded.
         We have changed the 'compile' property from true to false.
         -->
-    <bean id="ev-esign-repo_javaScriptProcessor" class="org.alfresco.repo.jscript.RhinoScriptProcessor" init-method="register">
+    <bean id="javaScriptProcessor" class="org.alfresco.repo.jscript.RhinoScriptProcessor" init-method="register">
         <property name="name">
             <value>javascript</value>
         </property>

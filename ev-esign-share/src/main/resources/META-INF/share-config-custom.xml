@@ -15,7 +15,7 @@
          </removeable>
       </aspects>
 
-	<config evaluator="string-compare" condition="Remote">
+	<!-- <config evaluator="string-compare" condition="Remote">
 		<remote>
 			<endpoint>
 				<id>alfresco-noauth</id>
@@ -51,6 +51,6 @@
 				<identity>user</identity>
 			</endpoint>
 		</remote>
-	</config>
+	</config> -->
 
 </alfresco-config>

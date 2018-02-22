@@ -12,5 +12,14 @@
 			</list>
 		</property>
 	</bean>
+	
+	<!-- evaluator to only show actions on correct mime type -->
+	<bean id="evaluator.esign.doclib.action.addESignMimetype" parent="evaluator.doclib.action.isMimetype">
+		<property name="mimetypes">
+			<list>
+				<value>application/pdf</value>
+			</list>
+		</property>
+	</bean>
 
 </beans>

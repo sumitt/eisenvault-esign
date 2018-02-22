@@ -98,6 +98,7 @@
             this.widgets.upload = Alfresco.util.createYUIButton(this, "button-upload", this.onUpload);
 	    this.widgets.signUpload = Alfresco.util.createYUIButton(this, "sign-upload", this.onSignUpload);
             this.widgets.clearphoto = Alfresco.util.createYUIButton(this, "button-clearphoto", this.onClearPhoto);
+	    this.widgets.clearESign = Alfresco.util.createYUIButton(this, "button-clear-esign", this.onClearESign);
             this.widgets.edit = Alfresco.util.createYUIButton(this, "button-edit", this.onEditProfile);
             this.widgets.save = Alfresco.util.createYUIButton(this, "button-save", null,
                {
@@ -286,6 +287,36 @@
                {
                   // replace all avatar image URLs with the updated one
                   var photos = Dom.getElementsByClassName("photoimg", "img");
+                  for (i in photos)
+                  {
+                     photos[i].src = Alfresco.constants.URL_RESCONTEXT + "components/images/no-user-photo-64.png";
+                  }
+               },
+               scope: this
+            }
+         });
+      },
+
+      /**
+       * Clear esign button click handler
+       *
+       * @method onClearESign
+       * @param e {object} DomEvent
+       * @param p_obj {object} Object passed back from addListener method
+       */
+      onClearESign: function UP_onClearESign(e, p_obj)
+      {
+         Alfresco.util.Ajax.request(
+         {
+            url: Alfresco.constants.PROXY_URI + "slingshot/profile/resetesign/" + encodeURIComponent(this.options.userId),
+            method: Alfresco.util.Ajax.PUT,
+            requestContentType: Alfresco.util.Ajax.JSON,
+            successCallback:
+            {
+               fn: function(res)
+               {
+                  // replace all esign image URLs with the updated one
+                  var photos = Dom.getElementsByClassName("signImg", "img");
                   for (i in photos)
                   {
                      photos[i].src = Alfresco.constants.URL_RESCONTEXT + "components/images/no-user-photo-64.png";

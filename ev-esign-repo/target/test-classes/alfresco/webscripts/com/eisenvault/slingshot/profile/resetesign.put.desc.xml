@@ -1,0 +1,9 @@
+<webscript>
+  <shortname>Reset E-Sign image</shortname>
+  <description>User Profile - Reset E-Sign image for a user</description>
+  <format default="json">argument</format>
+  <authentication>user</authentication>
+  <transaction>required</transaction>
+  <url>/slingshot/profile/resetesign/{userName}</url>
+  <lifecycle>internal</lifecycle>
+</webscript>
